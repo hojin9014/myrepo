@@ -1,0 +1,246 @@
+From MAILER-DAEMON  Wed May 19 01:17:45 2021
+Return-Path: <>
+X-Original-To: u20057@solgae.yonsei.ac.kr
+Delivered-To: u20057@solgae.yonsei.ac.kr
+Received: by solgae.yonsei.ac.kr (Postfix)
+	id D8E381DC2F78; Wed, 19 May 2021 01:17:45 +0900 (KST)
+Date: Wed, 19 May 2021 01:17:45 +0900 (KST)
+From: MAILER-DAEMON@solgae.yonsei.ac.kr (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: u20057@solgae.yonsei.ac.kr
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="AA5E21DC2D24.1621354665/solgae.yonsei.ac.kr"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20210518161745.D8E381DC2F78@solgae.yonsei.ac.kr>
+
+This is a MIME-encapsulated message.
+
+--AA5E21DC2D24.1621354665/solgae.yonsei.ac.kr
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host solgae.yonsei.ac.kr.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<20057@solgae.yonsei.ac.kr>: unknown user: "20057"
+
+<hojin@solgae.yonsei.ac.kr>: unknown user: "hojin"
+
+--AA5E21DC2D24.1621354665/solgae.yonsei.ac.kr
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; solgae.yonsei.ac.kr
+X-Postfix-Queue-ID: AA5E21DC2D24
+X-Postfix-Sender: rfc822; u20057@solgae.yonsei.ac.kr
+Arrival-Date: Wed, 19 May 2021 01:17:44 +0900 (KST)
+
+Final-Recipient: rfc822; 20057@solgae.yonsei.ac.kr
+Original-Recipient: rfc822;20057@solgae.yonsei.ac.kr
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: X-Postfix; unknown user: "20057"
+
+Final-Recipient: rfc822; hojin@solgae.yonsei.ac.kr
+Original-Recipient: rfc822;hojin@solgae.yonsei.ac.kr
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: X-Postfix; unknown user: "hojin"
+
+--AA5E21DC2D24.1621354665/solgae.yonsei.ac.kr
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <u20057@solgae.yonsei.ac.kr>
+Received: by solgae.yonsei.ac.kr (Postfix, from userid 1118)
+	id AA5E21DC2D24; Wed, 19 May 2021 01:17:44 +0900 (KST)
+To: <20057@solgae.yonsei.ac.kr>
+Cc: <hojin@solgae.yonsei.ac.kr>
+Subject: 20210519
+X-Mailer: mail (GNU Mailutils 3.7)
+Message-Id: <20210518161744.AA5E21DC2D24@solgae.yonsei.ac.kr>
+Date: Wed, 19 May 2021 01:17:44 +0900 (KST)
+From: 정호진 <u20057@solgae.yonsei.ac.kr>
+
+afnlk
+
+--AA5E21DC2D24.1621354665/solgae.yonsei.ac.kr--
+
+From MAILER-DAEMON  Wed May 19 01:24:50 2021
+Return-Path: <>
+X-Original-To: u20057@solgae.yonsei.ac.kr
+Delivered-To: u20057@solgae.yonsei.ac.kr
+Received: by solgae.yonsei.ac.kr (Postfix)
+	id 512211DC2FD3; Wed, 19 May 2021 01:24:50 +0900 (KST)
+Date: Wed, 19 May 2021 01:24:50 +0900 (KST)
+From: MAILER-DAEMON@solgae.yonsei.ac.kr (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: u20057@solgae.yonsei.ac.kr
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="3E7361DC2F78.1621355090/solgae.yonsei.ac.kr"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20210518162450.512211DC2FD3@solgae.yonsei.ac.kr>
+
+This is a MIME-encapsulated message.
+
+--3E7361DC2F78.1621355090/solgae.yonsei.ac.kr
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host solgae.yonsei.ac.kr.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<20210519@solgae.yonsei.ac.kr>: unknown user: "20210519"
+
+--3E7361DC2F78.1621355090/solgae.yonsei.ac.kr
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; solgae.yonsei.ac.kr
+X-Postfix-Queue-ID: 3E7361DC2F78
+X-Postfix-Sender: rfc822; u20057@solgae.yonsei.ac.kr
+Arrival-Date: Wed, 19 May 2021 01:24:50 +0900 (KST)
+
+Final-Recipient: rfc822; 20210519@solgae.yonsei.ac.kr
+Original-Recipient: rfc822;20210519@solgae.yonsei.ac.kr
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: X-Postfix; unknown user: "20210519"
+
+--3E7361DC2F78.1621355090/solgae.yonsei.ac.kr
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <u20057@solgae.yonsei.ac.kr>
+Received: by solgae.yonsei.ac.kr (Postfix, from userid 1118)
+	id 3E7361DC2F78; Wed, 19 May 2021 01:24:50 +0900 (KST)
+To: <20210519@solgae.yonsei.ac.kr>
+X-Mailer: mail (GNU Mailutils 3.7)
+Message-Id: <20210518162450.3E7361DC2F78@solgae.yonsei.ac.kr>
+Date: Wed, 19 May 2021 01:24:50 +0900 (KST)
+From: 정호진 <u20057@solgae.yonsei.ac.kr>
+
+
+--3E7361DC2F78.1621355090/solgae.yonsei.ac.kr--
+
+From u20057@solgae.yonsei.ac.kr  Wed May 19 01:27:45 2021
+Return-Path: <u20057@solgae.yonsei.ac.kr>
+X-Original-To: u20057@solgae.yonsei.ac.kr
+Delivered-To: u20057@solgae.yonsei.ac.kr
+Received: by solgae.yonsei.ac.kr (Postfix, from userid 1118)
+	id DF0E41DC2D1C; Wed, 19 May 2021 01:27:45 +0900 (KST)
+To: <u20057@solgae.yonsei.ac.kr>
+X-Mailer: mail (GNU Mailutils 3.7)
+Message-Id: <20210518162745.DF0E41DC2D1C@solgae.yonsei.ac.kr>
+Date: Wed, 19 May 2021 01:27:45 +0900 (KST)
+From: 정호진 <u20057@solgae.yonsei.ac.kr>
+
+
+
+From MAILER-DAEMON  Wed May 19 01:28:08 2021
+Return-Path: <>
+X-Original-To: u20057@solgae.yonsei.ac.kr
+Delivered-To: u20057@solgae.yonsei.ac.kr
+Received: by solgae.yonsei.ac.kr (Postfix)
+	id E364F1DC2FD3; Wed, 19 May 2021 01:28:08 +0900 (KST)
+Date: Wed, 19 May 2021 01:28:08 +0900 (KST)
+From: MAILER-DAEMON@solgae.yonsei.ac.kr (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: u20057@solgae.yonsei.ac.kr
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="063AA1DC2D1C.1621355288/solgae.yonsei.ac.kr"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20210518162808.E364F1DC2FD3@solgae.yonsei.ac.kr>
+
+This is a MIME-encapsulated message.
+
+--063AA1DC2D1C.1621355288/solgae.yonsei.ac.kr
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host solgae.yonsei.ac.kr.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<20057@solgae.yonsei.ac.kr>: unknown user: "20057"
+
+<hojin@solgae.yonsei.ac.kr>: unknown user: "hojin"
+
+--063AA1DC2D1C.1621355288/solgae.yonsei.ac.kr
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; solgae.yonsei.ac.kr
+X-Postfix-Queue-ID: 063AA1DC2D1C
+X-Postfix-Sender: rfc822; u20057@solgae.yonsei.ac.kr
+Arrival-Date: Wed, 19 May 2021 01:28:07 +0900 (KST)
+
+Final-Recipient: rfc822; 20057@solgae.yonsei.ac.kr
+Original-Recipient: rfc822;20057@solgae.yonsei.ac.kr
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: X-Postfix; unknown user: "20057"
+
+Final-Recipient: rfc822; hojin@solgae.yonsei.ac.kr
+Original-Recipient: rfc822;hojin@solgae.yonsei.ac.kr
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: X-Postfix; unknown user: "hojin"
+
+--063AA1DC2D1C.1621355288/solgae.yonsei.ac.kr
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <u20057@solgae.yonsei.ac.kr>
+Received: by solgae.yonsei.ac.kr (Postfix, from userid 1118)
+	id 063AA1DC2D1C; Wed, 19 May 2021 01:28:07 +0900 (KST)
+To: <20057@solgae.yonsei.ac.kr>
+Cc: <hojin@solgae.yonsei.ac.kr>
+Subject: hojin
+X-Mailer: mail (GNU Mailutils 3.7)
+Message-Id: <20210518162808.063AA1DC2D1C@solgae.yonsei.ac.kr>
+Date: Wed, 19 May 2021 01:28:07 +0900 (KST)
+From: 정호진 <u20057@solgae.yonsei.ac.kr>
+
+fnaslfnaslknasfdnlasnflas
+
+--063AA1DC2D1C.1621355288/solgae.yonsei.ac.kr--
+

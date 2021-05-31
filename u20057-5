@@ -1,0 +1,153 @@
+Script started on 2021-04-27 22:44:14+09:00 [TERM="xterm" TTY="/dev/pts/26" COLUMNS="83" LINES="40"]
+[4msolgae[24m:[1m~[0m> sleep
+sleep: missing operand
+Try 'sleep --help' for more information.
+[4msolgae[24m:[1m~[0m> sleep 60
+jp obs
+bc 3^[OQ7
+jop bs
+^F  
+^C
+[4msolgae[24m:[1m~[0m> sleep 10 &
+[1] 749701
+[4msolgae[24m:[1m~[0m> jobs
+[1]  + Running                       sleep 10
+[4msolgae[24m:[1m~[0m> sll[Keep 10
+fg
+^C
+[1]  + Done                          sleep 10
+[4msolgae[24m:[1m~[0m> sleep 100s[K
+^Z
+Suspended
+[4msolgae[24m:[1m~[0m> fg
+sleep 100
+fo  ^C
+[4msolgae[24m:[1m~[0m> jobs
+[4msolgae[24m:[1m~[0m> ps
+    PID TTY          TIME CMD
+ 749510 pts/27   00:00:00 tcsh
+ 750437 pts/27   00:00:00 ps
+[4msolgae[24m:[1m~[0m> sleep 100&
+[1] 750441
+[4msolgae[24m:[1m~[0m> fd[Kg
+sleep 100
+	k job
+s ^C
+[4msolgae[24m:[1m~[0m> fg
+fg: No current job.
+[4msolgae[24m:[1m~[0m> sleep 100
+^Z
+Suspended
+[4msolgae[24m:[1m~[0m> fg
+sleep 100
+^Z
+Suspended
+[4msolgae[24m:[1m~[0m> kill %2
+kill: No such job.
+[4msolgae[24m:[1m~[0m> kll[K[Kill@[K%1
+kill%1: Command not found.
+[4msolgae[24m:[1m~[0m> kill %1
+[4msolgae[24m:[1m~[0m> sleep 100
+^Z
+Suspended
+[1]    Terminated                    sleep 100
+[4msolgae[24m:[1m~[0m> fg
+sleep 100
+^Z
+Suspended
+[4msolgae[24m:[1m~[0m>  kill %1
+kill: No such job.
+[4msolgae[24m:[1m~[0m> kill %2
+[4msolgae[24m:[1m~[0m> jobs
+[2]    Terminated                    sleep 100
+[4msolgae[24m:[1m~[0m> kill [K[K[K[Ksellp[K[K[K[Kleep 100&
+[1] 750611
+[4msolgae[24m:[1m~[0m> jobs
+[1]  + Running                       sleep 100
+[4msolgae[24m:[1m~[0m> sleep 100
+^Z
+Suspended
+[4msolgae[24m:[1m~[0m> jobs
+[1]  - Running                       sleep 100
+[2]  + Suspended                     sleep 100
+[4msolgae[24m:[1m~[0m> kille[K [K[K[K[Kfg
+sleep 100
+^Z
+Suspended
+[4msolgae[24m:[1m~[0m> jobs
+[1]  - Running                       sleep 100
+[2]  + Suspended                     sleep 100
+[4msolgae[24m:[1m~[0m> kill 2[K%1[K2
+[4msolgae[24m:[1m~[0m> jobs
+[1]  + Running                       sleep 100
+[2]    Terminated                    sleep 100
+[4msolgae[24m:[1m~[0m> wher[Kre is ba[K[K[K[Kis bash
+bash: /usr/bin/bash /etc/bash.bashrc /usr/share/man/man1/bash.1.gz
+[1]  + Done                          sleep 100
+[4msolgae[24m:[1m~[0m> ps
+    PID TTY          TIME CMD
+ 749510 pts/27   00:00:00 tcsh
+ 751669 pts/27   00:00:00 ps
+[4msolgae[24m:[1m~[0m> les[K[Kc[K[Kclear
+[H[2J[3J[4msolgae[24m:[1m~[0m> ps
+    PID TTY          TIME CMD
+ 749510 pts/27   00:00:00 tcsh
+ 751734 pts/27   00:00:00 ps
+[4msolgae[24m:[1m~[0m> ps -u 20057
+    PID TTY          TIME CMD
+[4msolgae[24m:[1m~[0m> !ps 
+ps -u 20057
+    PID TTY          TIME CMD
+[4msolgae[24m:[1m~[0m> !ps e
+ps -u 20057 e
+    PID TTY      STAT   TIME COMMAND
+[4msolgae[24m:[1m~[0m> 2[K3[Ke !ps
+e ps -u 20057 e
+e: Command not found.
+[4msolgae[24m:[1m~[0m> e !ps || echo $n
+e ps -u 20057 e || echo $n
+e: Command not found.
+n: Undefined variable.
+[4msolgae[24m:[1m~[0m> ;[Ke !ps | echo $w[K2
+e ps -u 20057 e | echo $2
+
+e: Command not found.
+[4msolgae[24m:[1m~[0m> [4msolgae[24m:[1m~[0m> cd
+[4msolgae[24m:[1m~[0m> e ![s [K[Kps || echo @[K#[K$2
+e ps -u 20057 e || echo $2
+e: Command not found.
+
+[4msolgae[24m:[1m~[0m> e !ps | echo | @[K[K$w
+e ps -u 20057 e | echo $w
+w: Undefined variable.
+e: Command not found.
+[4msolgae[24m:[1m~[0m> e !ps | echo #[K@[K[K[K[K[K[K[K[K[K[Keco[Kho %w
+%w
+[4msolgae[24m:[1m~[0m> ce[K[Kecho''o '''%'2'
+%2
+[4msolgae[24m:[1m~[0m> e !ps | echo $2
+e ps -u 20057 e | echo $2
+
+e: Command not found.
+[4msolgae[24m:[1m~[0m> [4msolgae[24m:[1m~[0m> cd
+[4msolgae[24m:[1m~[0m> s[Kste[Ke[Kt -p[Ko noclobber
+stt: Command not found.
+[4msolgae[24m:[1m~[0m> set 0p[K[K-o noclobber
+set: Variable name must begin with a letter.
+[4msolgae[24m:[1m~[0m> PATH = [K=$PA[K[K[]P]A]T]J]H]][K][KH]]:~/BIN[K[K[Kbin
+Illegal variable name.
+[4msolgae[24m:[1m~[0m> p[KPATH-[K-[K=@[K[K[K[K[K[KALIAS SAT[K[K[Ksat[Ky= [K[K[K[Ktell=''e'c'h'o'
+ALIAS: Command not found.
+[4msolgae[24m:[1m~[0m> alias tell=''e'c'h'o'
+[4msolgae[24m:[1m~[0m> alias where=''p'w'd'
+[4msolgae[24m:[1m~[0m> alis[Kas insert='[K[K[K[K[K[K[K[Kmobe[K[Kve = [K=''c'd'
+[4msolgae[24m:[1m~[0m> alias i=''w'o'n''[K'[Kh'o'a'm'i'
+[4msolgae[24m:[1m~[0m> #[K@[Kvi ec[Ktc/proi[Kfile/bash.bashe[Kre[Kc//[K[K
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;40r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[40;1H"etc/profile/bash.bashrc" [새 디렉토리][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[1m[34m~                                                                                  [3;1H~                                                                                  [4;1H~                                                                                  [5;1H~                                                                                  [6;1H~                                                                                  [7;1H~                                                                                  [8;1H~                                                                                  [9;1H~                                                                                  [10;1H~                                                                                  [11;1H~                                                                                  [12;1H~                                                                                  [13;1H~                                                                                  [14;1H~                                                                                  [15;1H~                                                                                  [16;1H~                                                                                  [17;1H~                                                                                  [18;1H~                                                                                  [19;1H~                                                                                  [20;1H~                                                                                  [21;1H~                                                                                  [22;1H~                                                                                  [23;1H~                                                                                  [24;1H~                                                                                  [25;1H~                                                                                  [26;1H~                                                                                  [27;1H~                                                                                  [28;1H~                                                                                  [29;1H~                                                                                  [30;1H~                                                                                  [31;1H~                                                                                  [32;1H~                                                                                  [33;1H~                                                                                  [34;1H~                                                                                  [35;1H~                                                                                  [36;1H~                                                                                  [37;1H~                                                                                  [38;1H~                                                                                  [39;1H~                                                                                  [m[40;66H0,0-1[8C모두[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                                  [3;1H~                                                                                  [4;1H~                                                                                  [5;1H~                                                                                  [6;1H~                                                                                  [7;1H~                                                                                  [8;1H~                                                                                  [9;1H~                                                                                  [10;1H~                                                                                  [11;1H~                                                                                  [12;1H~                                                                                  [13;1H~                                                                                  [14;1H~                                                                                  [15;1H~                                                                                  [16;1H~                                                                                  [17;1H~                                                                                  [18;1H~                                                                                  [19;1H~                                                                                  [20;1H~                                                                                  [21;1H~                                                                                  [22;1H~                                                                                  [23;1H~                                                                                  [24;1H~                                                                                  [25;1H~                                                                                  [26;1H~                                                                                  [27;1H~                                                                                  [28;1H~                                                                                  [29;1H~                                                                                  [30;1H~                                                                                  [31;1H~                                                                                  [32;1H~                                                                                  [33;1H~                                                                                  [34;1H~                                                                                  [35;1H~                                                                                  [36;1H~                                                                                  [37;1H~                                                                                  [38;1H~                                                                                  [39;1H~                                                                                  [m[40;66H0,0-1[8C모두"etc/profile/bash.bashrc" [새 디렉토리][1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[27m[23m[29m[m[H[2J[2;1H[1m[34m~                                                                                  [3;1H~                                                                                  [4;1H~                                                                                  [5;1H~                                                                                  [6;1H~                                                                                  [7;1H~                                                                                  [8;1H~                                                                                  [9;1H~                                                                                  [10;1H~                                                                                  [11;1H~                                                                                  [12;1H~                                                                                  [13;1H~                                                                                  [14;1H~                                                                                  [15;1H~                                                                                  [16;1H~                                                                                  [17;1H~                                                                                  [18;1H~                                                                                  [19;1H~                                                                                  [20;1H~                                                                                  [21;1H~                                                                                  [22;1H~                                                                                  [23;1H~                                                                                  [24;1H~                                                                                  [25;1H~                                                                                  [26;1H~                                                                                  [27;1H~                                                                                  [28;1H~                                                                                  [29;1H~                                                                                  [30;1H~                                                                                  [31;1H~                                                                                  [32;1H~                                                                                  [33;1H~                                                                                  [34;1H~                                                                                  [35;1H~                                                                                  [36;1H~                                                                                  [37;1H~                                                                                  [38;1H~                                                                                  [39;1H~                                                                                  [m[40;66H0,0-1[8C모두"etc/profile/bash.bashrc" [새 디렉토리][1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                  [3;1H~                                                                                  [4;1H~                                                                                  [5;1H~                                                                                  [6;1H~                                                                                  [7;1H~                                                                                  [8;1H~                                                                                  [9;1H~                                                                                  [10;1H~                                                                                  [11;1H~                                                                                  [12;1H~                                                                                  [13;1H~                                                                                  [14;1H~                                                                                  [15;1H~                                                                                  [16;1H~                                                                                  [17;1H~                                                                                  [18;1H~                                                                                  [19;1H~                                                                                  [20;1H~                                                                                  [21;1H~                                                                                  [22;1H~                                                                                  [23;1H~                                                                                  [24;1H~                                                                                  [25;1H~                                                                                  [26;1H~                                                                                  [27;1H~                                                                                  [28;1H~                                                                                  [29;1H~                                                                                  [30;1H~                                                                                  [31;1H~                                                                                  [32;1H~                                                                                  [33;1H~                                                                                  [34;1H~                                                                                  [35;1H~                                                                                  [36;1H~                                                                                  [37;1H~                                                                                  [38;1H~                                                                                  [39;1H~                                                                                  [m[40;66H0,0-1[8C모두"etc/profile/bash.bashrc" [새 디렉토리][1;1HP+q6b32\P+q6b33\P+q6b34\P+q6b35\P+q6b36\P+q6b37\P+q6b38\P+q6b39\[40;56H^[[1;1H[40;58HP[1;1H[40;59H0[1;1H[40;60H+[1;1H[40;56H     [1;1HP+q6b3b\P+q4631\[?25hP+q4632\P+q2531\P+q2638\P+q6b62\P+q6b49\P+q6b44\P+q6b68\P+q4037\[?25l[40;56H^[[1;1H[40;58HP[1;1H[40;59H0[1;1H[40;60H+[1;1H[40;56H     [1;1HP+q6b50\P+q6b4e\[?25hP+q4b31\P+q4b33\P+q4b34\P+q4b35\P+q6b42\[?25l[40;56H^[[1;1H[40;58HP[1;1H[40;59H0[1;1H[40;56H    [1;1H[?25h[?25l[40;56H^D[1;1H[40;56H  [1;1H[?25h[?25l[40;1HType  :qa  and press <Enter> to exit Vim[40;66H[K[40;66H0,0-1[8C모두[1;1H[?25h[?25l[40;56H^M[1;1H[40;56H  [1;1H[?25h[?25l[40;56H{[1;1H[40;56H [1;1H[?25h[?25l[40;56H:[1;1H[40;1H[K[40;1H:[?2004h[?25hq[?25l[40;2H[K[40;2H[?25hwq[?25l[?2004l"etc/profile/bash.bashrc"
+[97m[41m"etc/profile/bash.bashrc" E212: 쓸 파일을 열 수 없습니다[?2004h[m
+[38;5;121m계속하려면 엔터 혹은 명령을 입력하십시오[?25h[?25l[1;1H[m[2L[2;1H[94m~                                                                                  [m[40;1H[K[40;66H0,0-1[8C모두[1;1H[?25h[?25l[40;56H"[1;1H[?25h[?25l[40;57H:[1;1H[?25h[?25l[40;58H^M[1;1H[40;56H    [1;1H[?25h[?25l[40;56H:[1;1H[40;56H[K[40;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[40;1H[K[40;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[4msolgae[24m:[1m~[0m> ecn[Kho !2[Ke:2
+echo -u
+-u
+[4msolgae[24m:[1m~[0m> ^Dexit
+
+Script done on 2021-04-27 23:32:44+09:00 [COMMAND_EXIT_CODE="0"]

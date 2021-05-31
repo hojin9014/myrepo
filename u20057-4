@@ -1,0 +1,1592 @@
+Script started on 2021-04-10 01:57:29+09:00 [TERM="xterm" TTY="/dev/pts/3" COLUMNS="83" LINES="40"]
+]0;u20057@solgae: ~u20057@solgae:~$ emacs heart2
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[40d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[39d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[40d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[40;33H[?25l50autoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[40;58H[?25ldone[H
+[?12l[?25h[?12;25h[40;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[40;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[40;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[40;77H[?25ldone[H
+[?12l[?25h[?12;25h[40;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[40;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[40;75H[?25ldone[H
+[?12l[?25h[?12;25h[40;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[40;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[40;54H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[40d[?25lLoading /etc/emacs/site-start.d/50tcsh.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                              [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) -------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[40d[K[2d[>4;1m[?2004h[40d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[40d[?25l(New file)[K[H
+[?12l[?25h[?12;25h[40d[?25l(New file)[K[H[7mFile Edit Options Buffers Tools Help                                               [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mheart2      [0m[39;49m[27m[7m   All L1     (Fundamental) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[40d[K[2d[40d[?25lC-x[H
+[?12l[?25h[?12;25h[40;4H[?25l-[H
+[?12l[?25h[?12;25h[40;4H[?25l C-x[H
+[?12l[?25h[?12;25h[40d[?25lNo mark set in this buffer[H
+[?12l[?25h[?12;25h[40d[K[2d[40d[?25lC-c[H
+[?12l[?25h[?12;25h[40;4H[?25l-[H
+[?12l[?25h[?12;25h[40;4H[?25l C-x[H
+[?12l[?25h[?12;25h[40;8H[?25l-[H
+[?12l[?25h[?12;25h[40;8H[?25l DEL[H
+[?12l[?25h[?12;25h[40;13H[?25lis undefined[H
+[?12l[?25h[?12;25h[40d[?25lBeginning of buffer[K[H
+[?12l[?25h[?12;25h[40d[K[2d[40d[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;u20057@solgae: ~u20057@solgae:~$ ^C
+]0;u20057@solgae: ~u20057@solgae:~$ emacs heart2
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[40d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[39d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[40d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[40;33H[?25l50autoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[40;58H[?25ldone[H
+[?12l[?25h[?12;25h[40;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[40;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[40;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[40;77H[?25ldone[H
+[?12l[?25h[?12;25h[40;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[40;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[40;75H[?25ldone[H
+[?12l[?25h[?12;25h[40;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[40;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[40;54H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[40d[?25lLoading /etc/emacs/site-start.d/50tcsh.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                              [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) -------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[40d[K[2d[>4;1m[?2004h[40d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[40d[?25l(New file)[K[H
+[?12l[?25h[?12;25h[40d[?25l(New file)[K[H[7mFile Edit Options Buffers Tools Help                                               [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mheart2      [0m[39;49m[27m[7m   All L1     (Fundamental) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[40d[K[2d[40d[?25lC-x[H
+[?12l[?25h[?12;25h[40;4H[?25l-[H
+[?12l[?25h[?12;25h[40;4H[?25l C-c[H
+[?12l[?25h[?12;25h[40d[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;u20057@solgae: ~u20057@solgae:~$ emacs heart2
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[40d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[39d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[40d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[40;33H[?25l50autoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[40;58H[?25ldone[H
+[?12l[?25h[?12;25h[40;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[40;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[40;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[40;77H[?25ldone[H
+[?12l[?25h[?12;25h[40;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[40;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[40;75H[?25ldone[H
+[?12l[?25h[?12;25h[40;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[40;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[40;54H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[40d[?25lLoading /etc/emacs/site-start.d/50tcsh.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                              [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) -------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[40d[K[2d[>4;1m[?2004h[40d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[40d[?25l(New file)[K[H
+[?12l[?25h[?12;25h[40d[?25l(New file)[K[H[7mFile Edit Options Buffers Tools Help                                               [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mheart2      [0m[39;49m[27m[7m   All L1     (Fundamental) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[40d[K[2d[?25l[36m^X[39;49m[39;6H[7m**[0m[39;49m[27m[2;3H[?12l[?25h[?12;25h[?25l[36m^D[39;49m[?12l[?25h[?12;25h[40;1H[?25lEnd of buffer[2;5H[?12l[?25h[?12;25h[40;1H[K[2;5H[?25ls[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[K[K[K[K[K[K[K[K[K[K[K[?25lh[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lj[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[C[?25lj[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[39;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[40d[?25lSaving file /home/u20057/heart2...[H
+
+[?12l[?25h[?12;25h[40d[?25lWrote /home/u20057/heart2[K[H
+
+[?12l[?25h[?12;25h[39;6H[?25l[7m--[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[40d[K[3d[40d[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;u20057@solgae: ~u20057@solgae:~$ emacs heart 2[K[K2
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[40d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[39d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[40d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[40;33H[?25l50autoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[40;58H[?25ldone[H
+[?12l[?25h[?12;25h[40;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[40;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[40;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[40;77H[?25ldone[H
+[?12l[?25h[?12;25h[40;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[40;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[40;75H[?25ldone[H
+[?12l[?25h[?12;25h[40;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[40;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[40;54H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[40d[?25lLoading /etc/emacs/site-start.d/50tcsh.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                              [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) -------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[40d[K[2d[>4;1m[?2004h[40d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[40d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                               [0m[39;49m[27m
+[A
+hojin jeong[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mheart2      [0m[39;49m[27m[7m   All L1     (Fundamental) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[40d[K[2d[?25l[2@[36m^Q[39;49m[39;6H[7m**[0m[39;49m[27m[2;3H[?12l[?25h[?12;25h[?25l[2P[?12l[?25h[?12;25h[?25l[2@sd[?12l[?25h[?12;25h[?25l[1@l[?12l[?25h[?12;25h[?25l[1@k[?12l[?25h[?12;25h[?25l[1@f[?12l[?25h[?12;25h[?25l[1@j[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[8@	[8P[40d[?25lBeginning of buffer[H
+[?12l[?25h[?12;25h[40d[K[2;2H[C[C[C[C[C		[C[C[C[39;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[40d[?25lEnd of buffer[H
+
+[?12l[?25h[?12;25h[40d[K[3d[?25l2[?12l[?25h[?12;25h[?25l0[?12l[?25h[?12;25h[?25l2[?12l[?25h[?12;25h[?25l1[?12l[?25h[?12;25h[C[?25l0[?12l[?25h[?12;25h[?25l4[?12l[?25h[?12;25h	[?25l2[?12l[?25h[?12;25h[?25l0[?12l[?25h[?12;25h[K[K	[?25l1[?12l[?25h[?12;25h[?25l0[?12l[?25h[?12;25h[39;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[?25l0[?12l[?25h[?12;25h[?25l2[?12l[?25h[?12;25h[C[?25l0[?12l[?25h[?12;25h[?25l1[?12l[?25h[?12;25h[C[?25la[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[K[K[C[K[K[C[K[K[?25la[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[C[?25l0[?12l[?25h[?12;25h[?25l2[?12l[?25h[?12;25h[?25l0[?12l[?25h[?12;25h[?25l1[?12l[?25h[?12;25h[39;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25ld[?12l[?25h[?12;25h[39;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[40d[?25lSaving file /home/u20057/heart2...[6;1H[?12l[?25h[?12;25h[40d[?25lWrote /home/u20057/heart2[K[6;1H[?12l[?25h[?12;25h[39;6H[?25l[7m--[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[40d[K[6d[40d[?25l(No changes need to be saved)[6;1H[?12l[?25h[?12;25h[40d[K[6d[40d[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;u20057@solgae: ~u20057@solgae:~$ emacs heart2
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[40d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[39d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[40d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[40;33H[?25l50autoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[40;58H[?25ldone[H
+[?12l[?25h[?12;25h[40;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[40;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[40;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[40;77H[?25ldone[H
+[?12l[?25h[?12;25h[40;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[40;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[40;75H[?25ldone[H
+[?12l[?25h[?12;25h[40;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[40;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[40;54H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[40d[?25lLoading /etc/emacs/site-start.d/50tcsh.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                              [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) -------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[40d[K[2d[>4;1m[?2004h[40d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[40d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                               [0m[39;49m[27m
+[A
+hojin jeong[K
+2021 04 10[K
+am 0201[K
+tired[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mheart2      [0m[39;49m[27m[7m   All L1     (Fundamental) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[40d[?25lBeginning of buffer[K[H
+[?12l[?25h[?12;25h[40d[K[39;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[39;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[39;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[39;34H[?25l[7m3[0m[39;49m[27m[4;8H[?12l[?25h[?12;25h[C[C[C	[40d[?25lThe mark is not set now, so there is no region[4;1H[?12l[?25h[?12;25h[40d[K[4d[?25lmam 0201[39;6H[7m**[0m[39;49m[27m[4;2H[?12l[?25h[?12;25h[?25lbam 0201[4;3H[?12l[?25h[?12;25h[?25lmam 0201[4;4H[?12l[?25h[?12;25h[?25lam 0201[K[4;3H[?12l[?25h[?12;25h[?25lam 0201[K[C[?12l[?25h[?12;25h[?25lam 0201[K[?12l[?25h[?12;25h[3;11H[?25lam 0201
+tired[K
+[K[39;34H[7m2[0m[39;49m[27m[3;11H[?12l[?25h[?12;25h[K
+[?25lam 0201
+tired[39;34H[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[40d[?25lC-c[4;1H[?12l[?25h[?12;25h[40;4H[?25l-[4;1H[?12l[?25h[?12;25h[40;4H[?25l C-n[4;1H[?12l[?25h[?12;25h[40;9H[?25lis undefined[4;1H[?12l[?25h[?12;25h[40d[K[39;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[39;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[40d[?25lESC[6;1H[?12l[?25h[?12;25h[40;4H[?25l-[6;1H[?12l[?25h[?12;25h[40;4H[?25l d[6;1H[?12l[?25h[?12;25h]52;c;[40d[K[6d[?25ls[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lf[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25lf[?12l[?25h[?12;25h[39;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25lfa[?12l[?25h[?12;25h[?25lf[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[39;34H[?25l[7m5[0m[39;49m[27m[6;7H[?12l[?25h[?12;25h[39;34H[?25l[7m4[0m[39;49m[27m[5;6H[?12l[?25h[?12;25h[?25lbtired[C[?12l[?25h[?12;25h[40;1H[?25lESC[5;2H[?12l[?25h[?12;25h[40;4H[?25l-[5;2H[?12l[?25h[?12;25h[40;4H[?25l a[5;2H[?12l[?25h[?12;25h[39;34H[?25l[7m1[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[40d[K[2d[39;34H[?25l[7m6[0m[39;49m[27m[7;7H[?12l[?25h[?12;25h[39;34H[?25l[7m1[0m[39;49m[27m[H
+[?12l[?25h[?12;25h]52;c;aG9qaW4gamVvbmc=[K[?25lh[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lj[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[C[?25lj[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[K[K[K[?25lo[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[40;1H[?25l[36mI-search: [39;49m[2;12H[?12l[?25h[?12;25h[39;52H[?25l[7m Isearch) [0m[39;49m[27m[2;12H[?12l[?25h[?12;25h[40;11H[?25l2[?12l[?25h[?12;25h[2d
+[?25l[36m[45m2[39;49m[39;34H[7m2[0m[39;49m[27m[3;2H[?12l[?25h[?12;25h[40;12H[?25l0[?12l[?25h[?12;25h[3;2H[?25l[36m[45m0[39;49m[?12l[?25h[?12;25h[4;5H[?25l[46m20[39;49m[3;3H[?12l[?25h[?12;25h[40;13H[?25l1[?12l[?25h[?12;25h[3;3H[?25l[46m20[39;49m[4;5H[36m[45m201[39;49m[39;34H[7m3[0m[39;49m[27m[4;8H[?12l[?25h[?12;25h[40;14H[?25l4[?12l[?25h[?12;25h[?25l[36mFailing I-search: [39;49m201[41m4[39;49m[4;8H[?12l[?25h[?12;25h[A[?25l20
+	[?12l[?25h[?12;25h[40;1H[?25lMark saved where search started[4;8H[?12l[?25h[?12;25h[?25l201[39;52H[7m) --------[0m[39;49m[27m[4;8H[?12l[?25h[?12;25h[40;1H[?25lAuto-saving...[K[4;8H[?12l[?25h[?12;25h[40;1H[?25lMark saved where search started[4;8H[?12l[?25h[?12;25h[40;1H[K[4;8H[40;1H[?25lSaving file /home/u20057/heart2...[4;8H[?12l[?25h[?12;25h[40;1H[?25lWrote /home/u20057/heart2[K[4;8H[?12l[?25h[?12;25h[39;6H[?25l[7m--[0m[39;49m[27m[4d[?12l[?25h[?12;25h[40;1H[K[4;8H[40;1H[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;u20057@solgae: ~u20057@solgae:~$ man cd
+No manual entry for cd
+]0;u20057@solgae: ~u20057@solgae:~$ BASH_BULINS()1)
+bash: syntax error near unexpected token `1'
+]0;u20057@solgae: ~u20057@solgae:~$ MAN[K[K[Kman cd
+No manual entry for cd
+]0;u20057@solgae: ~u20057@solgae:~$ csch -1
+
+Command 'csch' not found, did you mean:
+
+  command 'sch' from deb scheme2c (2012.10.14-1ubuntu1)
+  command 'csc' from deb chicken-bin (5.1.0-1)
+  command 'csh' from deb csh (20110502-5)
+  command 'csh' from deb tcsh (6.21.00-1)
+  command 'cssh' from deb clusterssh (4.14-1)
+
+Try: apt install <deb name>
+
+]0;u20057@solgae: ~u20057@solgae:~$ chsh -l
+chsh: invalid option -- 'l'
+Usage: chsh [options] [LOGIN]
+
+Options:
+  -h, --help                    display this help message and exit
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             new login shell for the user account
+
+]0;u20057@solgae: ~u20057@solgae:~$ chsh
+Password: 
+Changing the login shell for u20057
+Enter the new value, or press ENTER for the default
+	Login Shell [/bin/bash]: /bin/tchs  sh
+]0;u20057@solgae: ~u20057@solgae:~$ chsh -l
+chsh: invalid option -- 'l'
+Usage: chsh [options] [LOGIN]
+
+Options:
+  -h, --help                    display this help message and exit
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             new login shell for the user account
+
+]0;u20057@solgae: ~u20057@solgae:~$ exit
+
+Script done on 2021-04-10 02:16:08+09:00 [COMMAND_EXIT_CODE="2"]
+Script started on 2021-04-10 02:16:22+09:00 [TERM="xterm" TTY="/dev/pts/3" COLUMNS="83" LINES="40"]
+]0;u20057@solgae: ~u20057@solgae:~$ csh
+[4msolgae[24m:[1m~[0m% exit
+exit
+]0;u20057@solgae: ~u20057@solgae:~$ chs
+
+Command 'chs' not found, did you mean:
+
+  command 'cs' from deb csound (1:6.13.0~dfsg-3build2)
+  command 'chsh' from deb passwd (1:4.8.1-1ubuntu5.20.04)
+  command 'cjs' from deb cjs (4.4.0-4)
+  command 'cvs' from deb cvs (2:1.12.13+real-27build1)
+  command 'cht' from deb chemtool (1.6.14-5)
+  command 'csh' from deb csh (20110502-5)
+  command 'csh' from deb tcsh (6.21.00-1)
+  command 'c2hs' from deb c2hs (0.28.6-1build3)
+
+Try: apt install <deb name>
+
+]0;u20057@solgae: ~u20057@solgae:~$ chs
+
+Command 'chs' not found, did you mean:
+
+  command 'cjs' from deb cjs (4.4.0-4)
+  command 'cs' from deb csound (1:6.13.0~dfsg-3build2)
+  command 'cht' from deb chemtool (1.6.14-5)
+  command 'cvs' from deb cvs (2:1.12.13+real-27build1)
+  command 'chsh' from deb passwd (1:4.8.1-1ubuntu5.20.04)
+  command 'csh' from deb csh (20110502-5)
+  command 'csh' from deb tcsh (6.21.00-1)
+  command 'c2hs' from deb c2hs (0.28.6-1build3)
+
+Try: apt install <deb name>
+
+]0;u20057@solgae: ~u20057@solgae:~$ csh
+[4msolgae[24m:[1m~[0m% 
+[4msolgae[24m:[1m~[0m% echo Heloo[K[Klo Linx[Kux
+Hello Linux
+[4msolgae[24m:[1m~[0m% pritn[K[Kntf "%d + %d = %d\n" 10 20 0[K30
+10 + 20 = 30
+[4msolgae[24m:[1m~[0m% $pa[K[KPATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin: Command not found.
+[4msolgae[24m:[1m~[0m% exit
+exit
+]0;u20057@solgae: ~u20057@solgae:~$ date
+2021. 04. 10. (토) 02:22:57 KST
+]0;u20057@solgae: ~u20057@solgae:~$ date > stamp[K[K[K[K[K[K[K[K[K[K[K[Kecho hello \> world
+hello > world
+]0;u20057@solgae: ~u20057@solgae:~$ date > stamp[Kp
+]0;u20057@solgae: ~u20057@solgae:~$ cat sa[Ktamp
+2021. 04. 10. (토) 02:25:22 KST
+]0;u20057@solgae: ~u20057@solgae:~$ la
+'#file#'         .bashrc    [0m[01;34m.local[0m     heart2~   hw2      typescript
+ .arg.c.swp      [01;34m.cache[0m     .profile   hello     jeong    u20057-2
+ .bash_history   [01;34m.config[0m    .viminfo   hojin     lyrics   u20057-4
+ .bash_logout    [01;34m.emacs.d[0m   heart2     hojin2    stamp
+]0;u20057@solgae: ~u20057@solgae:~$ cat
+hloo   ello lin nux
+hello linux
+redirecio  tion
+redirection
+]0;u20057@solgae: ~u20057@solgae:~$ cat [K>[K > output
+hello linux
+Redirc ection
+]0;u20057@solgae: ~u20057@solgae:~$ cat output
+hello linux
+Redirection
+]0;u20057@solgae: ~u20057@solgae:~$ cat < output
+hello linux
+Redirection
+]0;u20057@solgae: ~u20057@solgae:~$ ca[K[Kchsh -l
+chsh: invalid option -- 'l'
+Usage: chsh [options] [LOGIN]
+
+Options:
+  -h, --help                    display this help message and exit
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             new login shell for the user account
+
+]0;u20057@solgae: ~u20057@solgae:~$ chsh -i
+chsh: invalid option -- 'i'
+Usage: chsh [options] [LOGIN]
+
+Options:
+  -h, --help                    display this help message and exit
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             new login shell for the user account
+
+]0;u20057@solgae: ~u20057@solgae:~$ csh
+[4msolgae[24m:[1m~[0m% exit
+exit
+]0;u20057@solgae: ~u20057@solgae:~$ exit
+exit
+
+Script done on 2021-04-10 03:06:27+09:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-04-13 21:51:02+09:00 [TERM="xterm" TTY="/dev/pts/15" COLUMNS="83" LINES="40"]
+[4msolgae[24m:[1m~[0m> pd[Ks
+    PID TTY          TIME CMD
+1166142 pts/16   00:00:00 tcsh
+1167773 pts/16   00:00:00 ps
+[4msolgae[24m:[1m~[0m> date
+2021. 04. 13. (화) 22:40:30 KST
+[4msolgae[24m:[1m~[0m> date > tem[K[K[Ktimerecod[Krd
+[4msolgae[24m:[1m~[0m> cat tiem[K[Kmerecord
+2021. 04. 13. (화) 22:41:11 KST
+[4msolgae[24m:[1m~[0m> echo Hello <>y>u>t>>[K>[Kp>u>>[K>[Ko>u>r>> & []m]y]
+your: No such file or directory.
+[4msolgae[24m:[1m~[0m> $ (cat hello; exit); echo $?
+Badly placed ()'s.
+[4msolgae[24m:[1m~[0m> 
+[4msolgae[24m:[1m~[0m> $ (cat hello; exit); echo $?
+Badly placed ()'s.
+[4msolgae[24m:[1m~[0m> ca t ge[K[Khello; exit[1@(cat hello; exit); eh[Kcho
+sanfdlk
+aslkf
+asnkflas
+safklas
+fnlkas
+
+[4msolgae[24m:[1m~[0m> cat hello
+sanfdlk
+aslkf
+asnkflas
+safklas
+fnlkas
+[4msolgae[24m:[1m~[0m> he[K[Kcat -> hello
+Hello <>^[[D      <>^[[D     your> & [my]
+[4msolgae[24m:[1m~[0m> cat(catcat hello; exit ); echo
+Hello <your> & [my]
+
+[4msolgae[24m:[1m~[0m> bc 
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+bc
+0
+vc[K[Kbc 57 ca[K[Kscl[Kale 3[K[K: 30
+(standard_in) 2: syntax error
+(standard_in) 2: illegal character: :
+fd
+0
+fd
+0
+[4msolgae[24m:[1m~[0m> bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+75[K[K5%7
+5
+[4msolgae[24m:[1m~[0m> bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+bc [K
+0
+5|7
+(standard_in) 2: illegal character: |
+(standard_in) 2: syntax error
+5[K[4msolgae[24m:[1m~[0m> echo 5?[K/[K[K[K[K[K[Kbc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+57[K/7
+0
+5/7[K[K[Kscale = 30
+s[K5/7
+.714285714285714285714285714285
+[4msolgae[24m:[1m~[0m> bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+5[Kcs[K[Kscanl[K[Kle = 30
+57[K/7
+.714285714285714285714285714285
+[4msolgae[24m:[1m~[0m> ls
+'#file#'   heart2~   hojin    hw2     lyrics   stamp	    typescript	 u20057-4
+ heart2    hello     hojin2   jeong   output   timerecord   u20057-2
+[4msolgae[24m:[1m~[0m> command << be[Kc
+? ca[K[Ksa[Kcalse[K[Ke = 30
+? 7[K5/7
+? ^Dcommand: Command not found.
+[4msolgae[24m:[1m~[0m> command << word
+? bc
+? scale = 30 
+? 5/7
+? word
+command: Command not found.
+[4msolgae[24m:[1m~[0m> vo[K[Kco[K[Kbc << worr[Kd
+? cs[K[Kscla[K[Kale = 30
+? 5/7
+? word
+.714285714285714285714285714285
+[4msolgae[24m:[1m~[0m> 8a[K[K*a
+*a: No match.
+[4msolgae[24m:[1m~[0m> cat a
+cat: a: No such file or directory
+[4msolgae[24m:[1m~[0m> cat -> a
+asflnasnf
+[4msolgae[24m:[1m~[0m> *a
+a: Command not found.
+[4msolgae[24m:[1m~[0m> ls
+'#file#'   heart2    hello   hojin2   jeong    output   timerecord   u20057-2
+ a	   heart2~   hojin   hw2      lyrics   stamp    typescript   u20057-4
+[4msolgae[24m:[1m~[0m> la
+la: Command not found.
+[4msolgae[24m:[1m~[0m> ls -a
+'#file#'      .bash_history   .config	 .viminfo   hello    jeong    timerecord
+ .	      .bash_logout    .emacs.d	 a	    hojin    lyrics   typescript
+ ..	      .bashrc	      .local	 heart2     hojin2   output   u20057-2
+ .arg.c.swp   .cache	      .profile	 heart2~    hw2      stamp    u20057-4
+[4msolgae[24m:[1m~[0m> ?a
+?a: No match.
+[4msolgae[24m:[1m~[0m> []a]
+a: Command not found.
+[4msolgae[24m:[1m~[0m> caa[Ktce[K[K[K[K[Kce[K[Kecho *a
+a
+[4msolgae[24m:[1m~[0m> 
+[K[4msolgae[24m:[1m~[0m> []a]-][1@*[a-k]
+a: Command not found.
+[4msolgae[24m:[1m~[0m> []a]5]][K-]k]
+a: Command not found.
+[4msolgae[24m:[1m~[0m> cat ->asfnkf
+[]^[[D      [ affasasfasgasadfasfsa
+[4msolgae[24m:[1m~[0m> ac[K[Ka[K[]a]-]k]
+a: Command not found.
+[4msolgae[24m:[1m~[0m> *[]a]-]k]
+a: Command not found.
+[4msolgae[24m:[1m~[0m> echo []a]-]k]
+a
+[4msolgae[24m:[1m~[0m> a[K[4msolgae[24m:[1m~[0m> a[Kcat _[K-> park
+sdakfnl
+[4msolgae[24m:[1m~[0m> c[Kehc[K[Kcho [K[K[K[Kls -l /bin/[]][K][K/]][K*a
+-rwxr-xr-x 1 root root   14664  2월 29  2020 /bin/bmtoa
+-rwxr-xr-x 1 root root   27688  8월 12  2016 /bin/calibrate_ppa
+-rwxr-xr-x 1 root root   45304  1월 31  2020 /bin/foo2lava
+-rwxr-xr-x 1 root root   14656  2월 18 23:41 /bin/gdk-pixbuf-pixdata
+-rwxr-xr-x 1 root root      91  4월  8  2020 /bin/gnome-session-remmina
+lrwxrwxrwx 1 root root      22  2월 22 14:23 /bin/lzma -> /etc/alternatives/lzma
+-rwxr-xr-x 1 root root    8729  5월  5  2020 /bin/orca
+-rwxr-xr-x 1 root root     516  8월 22  2020 /bin/pfbtopfa
+-rwxr-xr-x 1 root root 1652232  8월 12  2016 /bin/pnm2ppa
+-rwxr-xr-x 1 root root  133360  2월 14  2020 /bin/rdma
+-rwxr-xr-x 1 root root  490480  4월 12  2020 /bin/remmina
+-rwxr-xr-x 1 root root   26848  1월  7 05:47 /bin/systemd-delta
+lrwxrwxrwx 1 root root      16  2월 22 14:23 /bin/ua -> ubuntu-advantage
+lrwxrwxrwx 1 root root      24  2월 22 14:23 /bin/unlzma -> /etc/alternatives/unlzma
+-rwxr-xr-x 1 root root   10232  3월 19  2018 /bin/xgamma
+[4msolgae[24m:[1m~[0m> ls -; [Kl /bom[K[Kin/a*
+-rwxr-xr-x 1 root root  31248  5월 20  2020 /bin/aa-enabled
+-rwxr-xr-x 1 root root  35344  5월 20  2020 /bin/aa-exec
+lrwxrwxrwx 1 root root     25  3월 31 17:28 /bin/aclocal -> /etc/alternatives/aclocal
+-rwxr-xr-x 1 root root  36478  2월  5  2020 /bin/aclocal-1.16
+-rwxr-xr-x 1 root root  22912 10월 17 00:50 /bin/aconnect
+-rwxr-xr-x 1 root root  19016 11월 28  2019 /bin/acpi_listen
+-rwxr-xr-x 1 root root   7415 11월  3 23:08 /bin/add-apt-repository
+-rwxr-xr-x 1 root root  30952  7월 21  2020 /bin/addpart
+lrwxrwxrwx 1 root root     26  1월 22 00:23 /bin/addr2line -> x86_64-linux-gnu-addr2line
+-rwxr-xr-x 1 root root  47552 10월 17 00:50 /bin/alsabat
+-rwxr-xr-x 1 root root  85296 10월 17 00:50 /bin/alsaloop
+-rwxr-xr-x 1 root root  72432 10월 17 00:50 /bin/alsamixer
+-rwxr-xr-x 1 root root  14720 10월 17 00:50 /bin/alsatplg
+-rwxr-xr-x 1 root root  31528 10월 17 00:50 /bin/alsaucm
+-rwxr-xr-x 1 root root  31112 10월 17 00:50 /bin/amidi
+-rwxr-xr-x 1 root root  63952 10월 17 00:50 /bin/amixer
+-rwxr-xr-x 1 root root   2668  3월 22  2020 /bin/amuFormat.sh
+-rwxr-xr-x 1 root root    274 10월  2  2017 /bin/apg
+-rwxr-xr-x 1 root root  26696 10월  2  2017 /bin/apgbfm
+-rwxr-xr-x 1 root root  84400 10월 17 00:50 /bin/aplay
+-rwxr-xr-x 1 root root  27016 10월 17 00:50 /bin/aplaymidi
+-rwxr-xr-x 1 root root   2558 12월  5  2019 /bin/apport-bug
+-rwxr-xr-x 1 root root  13367  1월 26 21:21 /bin/apport-cli
+lrwxrwxrwx 1 root root     10  2월 22 14:23 /bin/apport-collect -> apport-bug
+-rwxr-xr-x 1 root root   2068  1월 26 21:21 /bin/apport-unpack
+-rwxr-xr-x 1 root root  14648  2월 29  2020 /bin/appres
+-rwxr-xr-x 1 root root  67816  3월 15  2020 /bin/appstreamcli
+lrwxrwxrwx 1 root root      6  2월 22 14:23 /bin/apropos -> whatis
+-rwxr-xr-x 1 root root  18824  1월 14 20:49 /bin/apt
+lrwxrwxrwx 1 root root     18  2월 22 14:23 /bin/apt-add-repository -> add-apt-repository
+-rwxr-xr-x 1 root root  88536  1월 14 20:49 /bin/apt-cache
+-rwxr-xr-x 1 root root  31192  1월 14 20:49 /bin/apt-cdrom
+-rwxr-xr-x 1 root root  27016  1월 14 20:49 /bin/apt-config
+-rwxr-xr-x 1 root root  27104  1월 14 20:49 /bin/apt-extracttemplates
+-rwxr-xr-x 1 root root 281056  1월 14 20:49 /bin/apt-ftparchive
+-rwxr-xr-x 1 root root  47576  1월 14 20:49 /bin/apt-get
+-rwxr-xr-x 1 root root  27931  1월 14 20:49 /bin/apt-key
+-rwxr-xr-x 1 root root  63960  1월 14 20:49 /bin/apt-mark
+-rwxr-xr-x 1 root root  47504  1월 14 20:49 /bin/apt-sortpkgs
+-rwxr-xr-x 1 root root   1039 12월  2 21:42 /bin/aptdcon
+-rwxr-xr-x 1 root root    273  5월 20  2016 /bin/apturl
+-rwxr-xr-x 1 root root   1544  1월 25  2020 /bin/apturl-gtk
+lrwxrwxrwx 1 root root     19  1월 22 00:23 /bin/ar -> x86_64-linux-gnu-ar
+-rwxr-xr-x 1 root root  39288  9월  5  2019 /bin/arch
+lrwxrwxrwx 1 root root      5  2월 22 14:23 /bin/arecord -> aplay
+-rwxr-xr-x 1 root root  31120 10월 17 00:50 /bin/arecordmidi
+-rwxr-xr-x 1 root root  14656  1월 31  2020 /bin/arm2hpdl
+lrwxrwxrwx 1 root root     19  1월 22 00:23 /bin/as -> x86_64-linux-gnu-as
+-rwxr-xr-x 1 root root  27008 10월 17 00:50 /bin/aseqdump
+-rwxr-xr-x 1 root root  27064 10월 17 00:50 /bin/aseqnet
+-rwxr-xr-x 1 root root 170496  3월 23  2020 /bin/aspell
+-rwxr-xr-x 1 root root   2044  3월 23  2020 /bin/aspell-import
+-rwxr-xr-x 1 root root  14640  2월 29  2020 /bin/atobm
+-rwxr-xr-x 1 root root  14768  1월  3  2020 /bin/autoconf
+-rwxr-xr-x 1 root root   8536  1월  3  2020 /bin/autoheader
+-rwxr-xr-x 1 root root  32671  1월  3  2020 /bin/autom4te
+lrwxrwxrwx 1 root root     26  3월 31 17:28 /bin/automake -> /etc/alternatives/automake
+-rwxr-xr-x 1 root root 257949  2월  5  2020 /bin/automake-1.16
+-rwxr-xr-x 1 root root  21163  1월  3  2020 /bin/autoreconf
+-rwxr-xr-x 1 root root  17132  1월  3  2020 /bin/autoscan
+-rwxr-xr-x 1 root root  33874  1월  3  2020 /bin/autoupdate
+-rwxr-xr-x 1 root root  30968  4월  8  2020 /bin/avahi-browse
+lrwxrwxrwx 1 root root     12  2월 22 14:23 /bin/avahi-browse-domains -> avahi-browse
+-rwxr-xr-x 1 root root  26864  4월  8  2020 /bin/avahi-publish
+lrwxrwxrwx 1 root root     13  2월 22 14:23 /bin/avahi-publish-address -> avahi-publish
+lrwxrwxrwx 1 root root     13  2월 22 14:23 /bin/avahi-publish-service -> avahi-publish
+-rwxr-xr-x 1 root root  22768  4월  8  2020 /bin/avahi-resolve
+lrwxrwxrwx 1 root root     13  2월 22 14:23 /bin/avahi-resolve-address -> avahi-resolve
+lrwxrwxrwx 1 root root     13  2월 22 14:23 /bin/avahi-resolve-host-name -> avahi-resolve
+-rwxr-xr-x 1 root root  14576  4월  8  2020 /bin/avahi-set-host-name
+lrwxrwxrwx 1 root root     21  2월 22 14:23 /bin/awk -> /etc/alternatives/awk
+-rwxr-xr-x 1 root root  92544 10월 17 00:50 /bin/axfer
+[4msolgae[24m:[1m~[0m> 
+[K[4msolgae[24m:[1m~[0m> ls -l /bin ;;[K[K/[]a]-]k]]*
+-rwxr-xr-x 1 root root          96  3월  8 22:02  /bin/2to3-2.7
+lrwxrwxrwx 1 root root          11  2월 22 14:23  /bin/GET -> lwp-request
+lrwxrwxrwx 1 root root          11  2월 22 14:23  /bin/HEAD -> lwp-request
+lrwxrwxrwx 1 root root          11  2월 22 14:23  /bin/POST -> lwp-request
+lrwxrwxrwx 1 root root           4  2월 22 14:23  /bin/X -> Xorg
+lrwxrwxrwx 1 root root           1  2월 22 14:23  /bin/X11 -> .
+-rwxr-xr-x 1 root root     2434568  1월 17 18:13  /bin/Xephyr
+-rwxr-xr-x 1 root root         274  1월 17 18:13  /bin/Xorg
+-rwxr-xr-x 1 root root     2324456  1월 17 18:13  /bin/Xwayland
+-rwxr-xr-x 1 root root       59736  9월  5  2019 '/bin/['
+-rwxr-xr-x 1 root root       31248  5월 20  2020  /bin/aa-enabled
+-rwxr-xr-x 1 root root       35344  5월 20  2020  /bin/aa-exec
+lrwxrwxrwx 1 root root          25  3월 31 17:28  /bin/aclocal -> /etc/alternatives/aclocal
+-rwxr-xr-x 1 root root       36478  2월  5  2020  /bin/aclocal-1.16
+-rwxr-xr-x 1 root root       22912 10월 17 00:50  /bin/aconnect
+-rwxr-xr-x 1 root root       19016 11월 28  2019  /bin/acpi_listen
+-rwxr-xr-x 1 root root        7415 11월  3 23:08  /bin/add-apt-repository
+-rwxr-xr-x 1 root root       30952  7월 21  2020  /bin/addpart
+lrwxrwxrwx 1 root root          26  1월 22 00:23  /bin/addr2line -> x86_64-linux-gnu-addr2line
+-rwxr-xr-x 1 root root       47552 10월 17 00:50  /bin/alsabat
+-rwxr-xr-x 1 root root       85296 10월 17 00:50  /bin/alsaloop
+-rwxr-xr-x 1 root root       72432 10월 17 00:50  /bin/alsamixer
+-rwxr-xr-x 1 root root       14720 10월 17 00:50  /bin/alsatplg
+-rwxr-xr-x 1 root root       31528 10월 17 00:50  /bin/alsaucm
+-rwxr-xr-x 1 root root       31112 10월 17 00:50  /bin/amidi
+-rwxr-xr-x 1 root root       63952 10월 17 00:50  /bin/amixer
+-rwxr-xr-x 1 root root        2668  3월 22  2020  /bin/amuFormat.sh
+-rwxr-xr-x 1 root root         274 10월  2  2017  /bin/apg
+-rwxr-xr-x 1 root root       26696 10월  2  2017  /bin/apgbfm
+-rwxr-xr-x 1 root root       84400 10월 17 00:50  /bin/aplay
+-rwxr-xr-x 1 root root       27016 10월 17 00:50  /bin/aplaymidi
+-rwxr-xr-x 1 root root        2558 12월  5  2019  /bin/apport-bug
+-rwxr-xr-x 1 root root       13367  1월 26 21:21  /bin/apport-cli
+lrwxrwxrwx 1 root root          10  2월 22 14:23  /bin/apport-collect -> apport-bug
+-rwxr-xr-x 1 root root        2068  1월 26 21:21  /bin/apport-unpack
+-rwxr-xr-x 1 root root       14648  2월 29  2020  /bin/appres
+-rwxr-xr-x 1 root root       67816  3월 15  2020  /bin/appstreamcli
+lrwxrwxrwx 1 root root           6  2월 22 14:23  /bin/apropos -> whatis
+-rwxr-xr-x 1 root root       18824  1월 14 20:49  /bin/apt
+lrwxrwxrwx 1 root root          18  2월 22 14:23  /bin/apt-add-repository -> add-apt-repository
+-rwxr-xr-x 1 root root       88536  1월 14 20:49  /bin/apt-cache
+-rwxr-xr-x 1 root root       31192  1월 14 20:49  /bin/apt-cdrom
+-rwxr-xr-x 1 root root       27016  1월 14 20:49  /bin/apt-config
+-rwxr-xr-x 1 root root       27104  1월 14 20:49  /bin/apt-extracttemplates
+-rwxr-xr-x 1 root root      281056  1월 14 20:49  /bin/apt-ftparchive
+-rwxr-xr-x 1 root root       47576  1월 14 20:49  /bin/apt-get
+-rwxr-xr-x 1 root root       27931  1월 14 20:49  /bin/apt-key
+-rwxr-xr-x 1 root root       63960  1월 14 20:49  /bin/apt-mark
+-rwxr-xr-x 1 root root       47504  1월 14 20:49  /bin/apt-sortpkgs
+-rwxr-xr-x 1 root root        1039 12월  2 21:42  /bin/aptdcon
+-rwxr-xr-x 1 root root         273  5월 20  2016  /bin/apturl
+-rwxr-xr-x 1 root root        1544  1월 25  2020  /bin/apturl-gtk
+lrwxrwxrwx 1 root root          19  1월 22 00:23  /bin/ar -> x86_64-linux-gnu-ar
+-rwxr-xr-x 1 root root       39288  9월  5  2019  /bin/arch
+lrwxrwxrwx 1 root root           5  2월 22 14:23  /bin/arecord -> aplay
+-rwxr-xr-x 1 root root       31120 10월 17 00:50  /bin/arecordmidi
+-rwxr-xr-x 1 root root       14656  1월 31  2020  /bin/arm2hpdl
+lrwxrwxrwx 1 root root          19  1월 22 00:23  /bin/as -> x86_64-linux-gnu-as
+-rwxr-xr-x 1 root root       27008 10월 17 00:50  /bin/aseqdump
+-rwxr-xr-x 1 root root       27064 10월 17 00:50  /bin/aseqnet
+-rwxr-xr-x 1 root root      170496  3월 23  2020  /bin/aspell
+-rwxr-xr-x 1 root root        2044  3월 23  2020  /bin/aspell-import
+-rwxr-xr-x 1 root root       14640  2월 29  2020  /bin/atobm
+-rwxr-xr-x 1 root root       14768  1월  3  2020  /bin/autoconf
+-rwxr-xr-x 1 root root        8536  1월  3  2020  /bin/autoheader
+-rwxr-xr-x 1 root root       32671  1월  3  2020  /bin/autom4te
+lrwxrwxrwx 1 root root          26  3월 31 17:28  /bin/automake -> /etc/alternatives/automake
+-rwxr-xr-x 1 root root      257949  2월  5  2020  /bin/automake-1.16
+-rwxr-xr-x 1 root root       21163  1월  3  2020  /bin/autoreconf
+-rwxr-xr-x 1 root root       17132  1월  3  2020  /bin/autoscan
+-rwxr-xr-x 1 root root       33874  1월  3  2020  /bin/autoupdate
+-rwxr-xr-x 1 root root       30968  4월  8  2020  /bin/avahi-browse
+lrwxrwxrwx 1 root root          12  2월 22 14:23  /bin/avahi-browse-domains -> avahi-browse
+-rwxr-xr-x 1 root root       26864  4월  8  2020  /bin/avahi-publish
+lrwxrwxrwx 1 root root          13  2월 22 14:23  /bin/avahi-publish-address -> avahi-publish
+lrwxrwxrwx 1 root root          13  2월 22 14:23  /bin/avahi-publish-service -> avahi-publish
+-rwxr-xr-x 1 root root       22768  4월  8  2020  /bin/avahi-resolve
+lrwxrwxrwx 1 root root          13  2월 22 14:23  /bin/avahi-resolve-address -> avahi-resolve
+lrwxrwxrwx 1 root root          13  2월 22 14:23  /bin/avahi-resolve-host-name -> avahi-resolve
+-rwxr-xr-x 1 root root       14576  4월  8  2020  /bin/avahi-set-host-name
+lrwxrwxrwx 1 root root          21  2월 22 14:23  /bin/awk -> /etc/alternatives/awk
+-rwxr-xr-x 1 root root       92544 10월 17 00:50  /bin/axfer
+-rwxr-xr-x 1 root root       59768  9월  5  2019  /bin/b2sum
+-rwxr-xr-x 1 root root      207296  9월 13  2019  /bin/baobab
+-rwxr-xr-x 1 root root       43352  9월  5  2019  /bin/base32
+-rwxr-xr-x 1 root root       43352  9월  5  2019  /bin/base64
+-rwxr-xr-x 1 root root       39256  9월  5  2019  /bin/basename
+-rwxr-xr-x 1 root root     1183448  6월 19  2020  /bin/bash
+-rwxr-xr-x 1 root root        6794  6월 19  2020  /bin/bashbug
+-rwxr-xr-x 1 root root      101064  1월 15  2019  /bin/bc
+-rwxr-xr-x 1 root root      197080  4월  3  2020  /bin/bccmd
+-rwxr-xr-x 1 root root       43128  3월 19  2018  /bin/bdftopcf
+-rwxr-xr-x 1 root root       10232  3월 19  2018  /bin/bdftruncate
+-rwxr-xr-x 1 root root      108944  2월 29  2020  /bin/bitmap
+-rwxr-xr-x 1 root root       84200  4월  3  2020  /bin/bluemoon
+-rwxr-xr-x 1 root root       35224 10월  2  2020  /bin/bluetooth-sendto
+-rwxr-xr-x 1 root root      252632  4월  3  2020  /bin/bluetoothctl
+-rwxr-xr-x 1 root root       14664  2월 29  2020  /bin/bmtoa
+-rwxr-xr-x 1 root root      146096  9월 10  2020  /bin/boltctl
+-rwxr-xr-x 1 root root       63840  1월  7 05:47  /bin/bootctl
+-rwxr-xr-x 1 root root      818800  3월  4  2020  /bin/brltty
+-rwxr-xr-x 1 root root      248544  3월  4  2020  /bin/brltty-ctb
+-rwxr-xr-x 1 root root      186976  3월  4  2020  /bin/brltty-trtxt
+-rwxr-xr-x 1 root root      219936  3월  4  2020  /bin/brltty-ttb
+-rwxr-xr-x 1 root root      121224  5월  8  2020  /bin/broadwayd
+lrwxrwxrwx 1 root root           8  2월 22 14:23  /bin/browse -> xdg-open
+-rwxr-xr-x 1 root root       14488  3월 30  2020  /bin/bsd-from
+-rwxr-sr-x 1 root tty        14488  3월 30  2020  /bin/bsd-write
+-rwxr-xr-x 1 root root       76008  4월  3  2020  /bin/btattach
+-rwxr-xr-x 1 root root      307144  4월  3  2020  /bin/btmgmt
+-rwxr-xr-x 1 root root      815256  4월  3  2020  /bin/btmon
+-rwxr-xr-x 1 root root       39144  9월  6  2019  /bin/bunzip2
+-rwxr-xr-x 1 root root       88416  1월  7 05:47  /bin/busctl
+-rwxr-xr-x 1 root root     2172376 11월 11 21:15  /bin/busybox
+-rwxr-xr-x 1 root root       68032  4월  1  2020  /bin/bwrap
+-rwxr-xr-x 1 root root       39144  9월  6  2019  /bin/bzcat
+lrwxrwxrwx 1 root root           6  2월 22 14:23  /bin/bzcmp -> bzdiff
+-rwxr-xr-x 1 root root        2227  9월  6  2019  /bin/bzdiff
+lrwxrwxrwx 1 root root           6  2월 22 14:23  /bin/bzegrep -> bzgrep
+-rwxr-xr-x 1 root root        4877  9월  4  2019  /bin/bzexe
+lrwxrwxrwx 1 root root           6  2월 22 14:23  /bin/bzfgrep -> bzgrep
+-rwxr-xr-x 1 root root        3775  9월  6  2019  /bin/bzgrep
+-rwxr-xr-x 1 root root       39144  9월  6  2019  /bin/bzip2
+-rwxr-xr-x 1 root root       18584  9월  6  2019  /bin/bzip2recover
+lrwxrwxrwx 1 root root           6  2월 22 14:23  /bin/bzless -> bzmore
+-rwxr-xr-x 1 root root        1297  9월  6  2019  /bin/bzmore
+lrwxrwxrwx 1 root root          21  3월 11 20:17  /bin/c++ -> /etc/alternatives/c++
+lrwxrwxrwx 1 root root          24  1월 22 00:23  /bin/c++filt -> x86_64-linux-gnu-c++filt
+lrwxrwxrwx 1 root root          21  3월 11 20:16  /bin/c89 -> /etc/alternatives/c89
+-rwxr-xr-x 1 root root         428  5월  7  2006  /bin/c89-gcc
+lrwxrwxrwx 1 root root          21  3월 11 20:16  /bin/c99 -> /etc/alternatives/c99
+-rwxr-xr-x 1 root root         454  4월 11  2011  /bin/c99-gcc
+-rwxr-xr-x 1 root root        6332  3월 22 20:37  /bin/c_rehash
+-rwxr-xr-x 1 root root        1669  3월 25  2020  /bin/caca-config
+lrwxrwxrwx 1 root root           4  2월 22 14:23  /bin/cal -> ncal
+-rwxr-xr-x 1 root root       35464  3월 30  2020  /bin/calendar
+-rwxr-xr-x 1 root root       27688  8월 12  2016  /bin/calibrate_ppa
+-rwxr-xr-x 1 root root       18504  6월 21  2019  /bin/canberra-gtk-play
+-rwxr-xr-x 1 root root       14648  4월 24  2020  /bin/cancel
+lrwxrwxrwx 1 root root           3  2월 22 14:23  /bin/captoinfo -> tic
+-rwxr-xr-x 1 root root       43416  9월  5  2019  /bin/cat
+-rwxr-xr-x 1 root root        3330 12월 16 20:04  /bin/catchsegv
+-rwxr-xr-x 1 root root       39616  2월 26  2020  /bin/catman
+-rwxr-xr-x 1 root root         853 10월 19  2019  /bin/cautious-launcher
+lrwxrwxrwx 1 root root          20  3월 11 20:16  /bin/cc -> /etc/alternatives/cc
+-rwxr-xr-x 1 root root       26928  3월 20  2020  /bin/cd-create-profile
+-rwxr-xr-x 1 root root       26928  3월 20  2020  /bin/cd-fix-profile
+-rwxr-xr-x 1 root root       14640  3월 20  2020  /bin/cd-iccdump
+-rwxr-xr-x 1 root root       22832  3월 20  2020  /bin/cd-it8
+-rwxr-xr-x 1 root root       18584  3월  1  2020  /bin/chacl
+-rwxr-sr-x 1 root shadow     84512  5월 28  2020  /bin/chage
+lrwxrwxrwx 1 root root          11  2월 22 14:23  /bin/chardet3 -> chardetect3
+-rwxr-xr-x 1 root root         389 12월 17  2019  /bin/chardetect3
+-rwxr-xr-x 1 root root       14656  2월 14  2020  /bin/chattr
+-rwxr-xr-x 1 root root       72024  9월  5  2019  /bin/chcon
+-rwxr-xr-x 1 root root        2771  9월 28  2020  /bin/check-language-support
+-rwxr-xr-x 1 root root      272776  9월 25  2020  /bin/cheese
+-rwsr-xr-x 1 root root       85064  5월 28  2020  /bin/chfn
+-rwxr-xr-x 1 root root       72024  9월  5  2019  /bin/chgrp
+-rwxr-xr-x 1 root root       63864  9월  5  2019  /bin/chmod
+-rwxr-xr-x 1 root root       51432  7월 21  2020  /bin/choom
+-rwxr-xr-x 1 root root       72024  9월  5  2019  /bin/chown
+-rwxr-xr-x 1 root root       39144  7월 21  2020  /bin/chrt
+-rwsr-xr-x 1 root root       53040  5월 28  2020  /bin/chsh
+-rwxr-xr-x 1 root root       14408  5월 10  2019  /bin/chvt
+-rwxr-xr-x 1 root root      149240  4월  3  2020  /bin/ciptool
+-rwxr-xr-x 1 root root      149904  3월 27  2020  /bin/ckbcomp
+-rwxr-xr-x 1 root root       39256  9월  5  2019  /bin/cksum
+-rwxr-xr-x 1 root root       14656  2월 26  2020  /bin/clear
+-rwxr-xr-x 1 root root       14568  6월 19  2020  /bin/clear_console
+-rwxr-xr-x 1 root root       51296  4월  8  2019  /bin/cmp
+-rwxr-xr-x 1 root root       14328  5월 10  2019  /bin/codepage
+-rwxr-xr-x 1 root root       18584  3월 30  2020  /bin/col
+-rwxr-xr-x 1 root root       14488  3월 30  2020  /bin/colcrt
+-rwxr-xr-x 1 root root       59696  3월 20  2020  /bin/colormgr
+-rwxr-xr-x 1 root root       14488  3월 30  2020  /bin/colrm
+-rwxr-xr-x 1 root root       14504  3월 30  2020  /bin/column
+-rwxr-xr-x 1 root root       43384  9월  5  2019  /bin/comm
+lrwxrwxrwx 1 root root          11  2월 22 14:23  /bin/compose -> run-mailcap
+-rwxr-xr-x 1 root root       15088 10월 19 19:56  /bin/corelist
+-rwxr-xr-x 1 root root      153976  9월  5  2019  /bin/cp
+-rwxr-xr-x 1 root root        8155 10월 19 19:56  /bin/cpan
+-rwxr-xr-x 1 root root        8176 10월 19 19:56  /bin/cpan5.30-x86_64-linux-gnu
+-rwxr-xr-x 1 root root      165504  2월  1  2020  /bin/cpio
+lrwxrwxrwx 1 root root           5  2월 22 14:23  /bin/cpp -> cpp-9
+lrwxrwxrwx 1 root root          22  2월 22 14:23  /bin/cpp-9 -> x86_64-linux-gnu-cpp-9
+-rwxr-sr-x 1 root crontab    43720  2월 14  2020  /bin/crontab
+lrwxrwxrwx 1 root root          21  4월  5 09:08  /bin/csh -> /etc/alternatives/csh
+-rwxr-xr-x 1 root root       55672  9월  5  2019  /bin/csplit
+lrwxrwxrwx 1 root root          23  3월 31 09:00  /bin/ctags -> /etc/alternatives/ctags
+-rwxr-xr-x 1 root root      134496  3월 26  2020  /bin/ctags.emacs
+lrwxrwxrwx 1 root root           6  2월 22 14:23  /bin/ctstat -> lnstat
+-rwxr-xr-x 1 root root       63872  4월 24  2020  /bin/cupstestppd
+-rwxr-xr-x 1 root root       47480  9월  5  2019  /bin/cut
+-rwxr-xr-x 1 root root       18752  1월 17 18:13  /bin/cvt
+-rwxr-xr-x 1 root root      273096  1월 19 23:21  /bin/cvtsudoers
+-rwxr-xr-x 1 root root      129816  7월 19  2019  /bin/dash
+-rwxr-xr-x 1 root root      108920  9월  5  2019  /bin/date
+-rwxr-xr-x 1 root root       14480  6월 12  2020  /bin/dbus-cleanup-sockets
+-rwxr-xr-x 1 root root      249032  6월 12  2020  /bin/dbus-daemon
+-rwxr-xr-x 1 root root       34960  6월 12  2020  /bin/dbus-launch
+-rwxr-xr-x 1 root root       30864  6월 12  2020  /bin/dbus-monitor
+-rwxr-xr-x 1 root root       14480  6월 12  2020  /bin/dbus-run-session
+-rwxr-xr-x 1 root root       30864  6월 12  2020  /bin/dbus-send
+-rwxr-xr-x 1 root root       14480  6월 12  2020  /bin/dbus-update-activation-environment
+-rwxr-xr-x 1 root root       14480  6월 12  2020  /bin/dbus-uuidgen
+-rwxr-xr-x 1 root root       55392  1월 15  2019  /bin/dc
+-rwxr-xr-x 1 root root       55528  3월 11  2020  /bin/dconf
+-rwxr-xr-x 1 root root       80256  9월  5  2019  /bin/dd
+-rwxr-xr-x 1 root root       18752  1월 31  2020  /bin/ddstdecode
+-rwxr-xr-x 1 root root       14408  5월 10  2019  /bin/deallocvt
+-rwxr-xr-x 1 root root       21328  6월 22  2019  /bin/deb-systemd-helper
+-rwxr-xr-x 1 root root        4430  6월 22  2019  /bin/deb-systemd-invoke
+-rwxr-xr-x 1 root root        2859  8월  3  2019  /bin/debconf
+-rwxr-xr-x 1 root root       11541  8월  3  2019  /bin/debconf-apt-progress
+-rwxr-xr-x 1 root root         608  8월  3  2019  /bin/debconf-communicate
+-rwxr-xr-x 1 root root        1719  8월  3  2019  /bin/debconf-copydb
+-rwxr-xr-x 1 root root         647  8월  3  2019  /bin/debconf-escape
+-rwxr-xr-x 1 root root        2935  8월  3  2019  /bin/debconf-set-selections
+-rwxr-xr-x 1 root root        1827  8월  3  2019  /bin/debconf-show
+-rwxr-xr-x 1 root root      223752  6월 15  2020  /bin/deja-dup
+-rwxr-xr-x 1 root root       30952  7월 21  2020  /bin/delpart
+-rwxr-xr-x 1 root root       49552  2월 17 05:08  /bin/delv
+lrwxrwxrwx 1 root root          20  2월 22 14:23  /bin/desktop-file-edit -> desktop-file-install
+-rwxr-xr-x 1 root root       98488  4월 21  2020  /bin/desktop-file-install
+-rwxr-xr-x 1 root root       82344  4월 21  2020  /bin/desktop-file-validate
+-rwxr-xr-x 1 root root      183576  2월 18  2020  /bin/devdump
+-rwxr-xr-x 1 root root       93128  9월  5  2019  /bin/df
+-rwxr-xr-x 1 root root      117040  6월 19  2020  /bin/dfu-tool
+-rwxr-xr-x 1 root root        1836  2월 25  2018  /bin/dh_autotools-dev_restoreconfig
+-rwxr-xr-x 1 root root        1849  2월 25  2018  /bin/dh_autotools-dev_updateconfig
+-rwxr-xr-x 1 root root        2446  1월 26  2020  /bin/dh_bash-completion
+-rwxr-xr-x 1 root root        9444  2월 27  2019  /bin/dh_installxmlcatalogs
+-rwxr-xr-x 1 root root        1396  2월  3  2020  /bin/dh_perl_openssl
+-rwxr-xr-x 1 root root        1057  3월 13  2020  /bin/dh_python2
+-rwxr-xr-x 1 root root      219480  4월  8  2019  /bin/diff
+-rwxr-xr-x 1 root root       67800  4월  8  2019  /bin/diff3
+-rwxr-xr-x 1 root root      138032  2월 17 05:08  /bin/dig
+-rwxr-xr-x 1 root root      142144  9월  5  2019  /bin/dir
+-rwxr-xr-x 1 root root       47456  9월  5  2019  /bin/dircolors
+-rwxr-xr-x 1 root root      583536  3월 11  2020  /bin/dirmngr
+-rwxr-xr-x 1 root root      121920  3월 11  2020  /bin/dirmngr-client
+-rwxr-xr-x 1 root root       39256  9월  5  2019  /bin/dirname
+-rwxr-xr-x 1 root root       17143 11월 26  2006  /bin/dirsplit
+-rwxr-xr-x 1 root root       84440  7월 21  2020  /bin/dmesg
+lrwxrwxrwx 1 root root           8  2월 22 14:23  /bin/dnsdomainname -> hostname
+-rwxr-xr-x 1 root root        9314  1월 20 06:47  /bin/do-release-upgrade
+lrwxrwxrwx 1 root root           8  2월 22 14:23  /bin/domainname -> hostname
+lrwxrwxrwx 1 root root          25  4월  5 11:02  /bin/dotlock -> /etc/alternatives/dotlock
+-rwxr-sr-x 1 root root       15368  3월 20  2020  /bin/dotlock.mailutils
+-rwxr-xr-x 1 root root      309944  3월 23  2020  /bin/dpkg
+-rwxr-xr-x 1 root root      178728  3월 23  2020  /bin/dpkg-deb
+-rwxr-xr-x 1 root root      154208  3월 23  2020  /bin/dpkg-divert
+-rwxr-xr-x 1 root root       20514  3월 23  2020  /bin/dpkg-maintscript-helper
+-rwxr-xr-x 1 root root      166488  3월 23  2020  /bin/dpkg-query
+-rwxr-xr-x 1 root root      125424  3월 23  2020  /bin/dpkg-split
+-rwxr-xr-x 1 root root       63760  3월 23  2020  /bin/dpkg-statoverride
+-rwxr-xr-x 1 root root       84472  3월 23  2020  /bin/dpkg-trigger
+lrwxrwxrwx 1 root root          29  2월 22 14:23  /bin/driverless -> ../lib/cups/driver/driverless
+-rwxr-xr-x 1 root root      108920  9월  5  2019  /bin/du
+-rwxr-xr-x 1 root root      178712  5월 10  2019  /bin/dumpkeys
+-rwxr-xr-x 1 root root        5355  3월 26  2020  /bin/duplicity
+-rwxr-xr-x 1 root root        1007  8월 22  2020  /bin/dvipdf
+lrwxrwxrwx 1 root root          20  1월 22 00:23  /bin/dwp -> x86_64-linux-gnu-dwp
+lrwxrwxrwx 1 root root          25  3월 31 09:00  /bin/ebrowse -> /etc/alternatives/ebrowse
+-rwxr-xr-x 1 root root       43720  3월 26  2020  /bin/ebrowse.emacs
+-rwxr-xr-x 1 root root       39256  9월  5  2019  /bin/echo
+-rwxr-xr-x 1 root root       55504  2월 22  2020  /bin/ed
+lrwxrwxrwx 1 root root          11  2월 22 14:23  /bin/edit -> run-mailcap
+lrwxrwxrwx 1 root root          24  2월 22 14:23  /bin/editor -> /etc/alternatives/editor
+-rwxr-xr-x 1 root root       74448  2월 29  2020  /bin/editres
+-rwxr-xr-x 1 root root          28  1월 29  2020  /bin/egrep
+-rwxr-xr-x 1 root root       35680  7월  8  2019  /bin/eject
+lrwxrwxrwx 1 root root          24  1월 22 00:23  /bin/elfedit -> x86_64-linux-gnu-elfedit
+lrwxrwxrwx 1 root root          23  3월 31 09:00  /bin/emacs -> /etc/alternatives/emacs
+-rwxr-xr-x 1 root root    39991720  3월 26  2020  /bin/emacs-gtk
+lrwxrwxrwx 1 root root          29  3월 31 09:00  /bin/emacsclient -> /etc/alternatives/emacsclient
+-rwxr-xr-x 1 root root       31432  3월 26  2020  /bin/emacsclient.emacs
+-rwxr-xr-x 1 root root       42111 10월 19 19:56  /bin/enc2xs
+-rwxr-xr-x 1 root root        3066 10월 19 19:56  /bin/encguess
+-rwxr-xr-x 1 root root       22912 11월  5 23:13  /bin/enchant-2
+-rwxr-xr-x 1 root root       14648 11월  5 23:13  /bin/enchant-lsmod-2
+-rwxr-xr-x 1 root root       43352  9월  5  2019  /bin/env
+-rwxr-xr-x 1 root root       43240  3월 23  2020  /bin/envsubst
+-rwxr-xr-x 1 root root       18808  7월  6  2020  /bin/eog
+-rwxr-xr-x 1 root root         639  8월 22  2020  /bin/eps2eps
+-rwxr-xr-x 1 root root      206336  3월 21  2020  /bin/eqn
+-rwxr-xr-x 1 root root       14344 10월 30  2018  /bin/esc-m
+lrwxrwxrwx 1 root root          23  3월 31 09:00  /bin/etags -> /etc/alternatives/etags
+-rwxr-xr-x 1 root root      126112  3월 26  2020  /bin/etags.emacs
+-rwxr-xr-x 1 root root       26784  3월  4  2020  /bin/eutp
+-rwxr-xr-x 1 root root      482984  7월  7  2020  /bin/evince
+-rwxr-xr-x 1 root root       55824  7월  7  2020  /bin/evince-previewer
+-rwxr-xr-x 1 root root       18824  7월  7  2020  /bin/evince-thumbnailer
+lrwxrwxrwx 1 root root          20  2월 22 14:23  /bin/ex -> /etc/alternatives/ex
+-rwxr-xr-x 1 root root       43384  9월  5  2019  /bin/expand
+-rwxr-sr-x 1 root shadow     31312  5월 28  2020  /bin/expiry
+-rwxr-xr-x 1 root root       55640  9월  5  2019  /bin/expr
+-rwxr-xr-x 1 root root       80248  9월  5  2019  /bin/factor
+-rwxr-xr-x 1 root root       23136  5월 28  2020  /bin/faillog
+-rwxr-xr-x 1 root root       35048  7월 21  2020  /bin/fallocate
+-rwxr-xr-x 1 root root       39256  9월  5  2019  /bin/false
+-rwxr-xr-x 1 root root       22760  4월  6  2020  /bin/fc-cache
+-rwxr-xr-x 1 root root       18664  4월  6  2020  /bin/fc-cat
+-rwxr-xr-x 1 root root       14568  4월  6  2020  /bin/fc-conflist
+-rwxr-xr-x 1 root root       14568  4월  6  2020  /bin/fc-list
+-rwxr-xr-x 1 root root       14568  4월  6  2020  /bin/fc-match
+-rwxr-xr-x 1 root root       14568  4월  6  2020  /bin/fc-pattern
+-rwxr-xr-x 1 root root       14568  4월  6  2020  /bin/fc-query
+-rwxr-xr-x 1 root root       14568  4월  6  2020  /bin/fc-scan
+-rwxr-xr-x 1 root root       14568  4월  6  2020  /bin/fc-validate
+-rwxr-xr-x 1 root root       14408  5월 10  2019  /bin/fgconsole
+-rwxr-xr-x 1 root root          28  1월 29  2020  /bin/fgrep
+-rwxr-xr-x 1 root root       27104  1월 17  2020  /bin/file
+-rwxr-xr-x 1 root root      546928  9월 25  2020  /bin/file-roller
+-rwxr-xr-x 1 root root       26856 12월  7  2019  /bin/file2brl
+-rwxr-xr-x 1 root root       35096  7월 21  2020  /bin/fincore
+-rwxr-xr-x 1 root root      320160  2월 18  2020  /bin/find
+-rwxr-xr-x 1 root root       73128  7월 21  2020  /bin/findmnt
+-rwxr-xr-x 1 root root       31360  7월  8  2019  /bin/finger
+lrwxrwxrwx 1 root root          25  3월 23 14:57  /bin/firefox -> ../lib/firefox/firefox.sh
+-rwxr-xr-x 1 root root       35128  7월 21  2020  /bin/flock
+-rwxr-xr-x 1 root root       47448  9월  5  2019  /bin/fmt
+-rwxr-xr-x 1 root root       43352  9월  5  2019  /bin/fold
+-rwxr-xr-x 1 root root       34832  3월 19  2018  /bin/fonttosfnt
+-rwxr-xr-x 1 root root       36072  1월 31  2020  /bin/foo2ddst
+-rwxr-xr-x 1 root root       17268  1월 31  2020  /bin/foo2ddst-wrapper
+-rwxr-xr-x 1 root root       37128  1월 31  2020  /bin/foo2hbpl2
+-rwxr-xr-x 1 root root       18343  1월 31  2020  /bin/foo2hbpl2-wrapper
+-rwxr-xr-x 1 root root       44264  1월 31  2020  /bin/foo2hiperc
+-rwxr-xr-x 1 root root       18541  1월 31  2020  /bin/foo2hiperc-wrapper
+-rwxr-xr-x 1 root root       40424  1월 31  2020  /bin/foo2hp
+-rwxr-xr-x 1 root root       19204  1월 31  2020  /bin/foo2hp2600-wrapper
+-rwxr-xr-x 1 root root       45304  1월 31  2020  /bin/foo2lava
+-rwxr-xr-x 1 root root       20083  1월 31  2020  /bin/foo2lava-wrapper
+-rwxr-xr-x 1 root root       40360  1월 31  2020  /bin/foo2oak
+-rwxr-xr-x 1 root root       17871  1월 31  2020  /bin/foo2oak-wrapper
+-rwxr-xr-x 1 root root       44296  1월 31  2020  /bin/foo2qpdl
+-rwxr-xr-x 1 root root       19514  1월 31  2020  /bin/foo2qpdl-wrapper
+-rwxr-xr-x 1 root root       31976  1월 31  2020  /bin/foo2slx
+-rwxr-xr-x 1 root root       17603  1월 31  2020  /bin/foo2slx-wrapper
+-rwxr-xr-x 1 root root       40168  1월 31  2020  /bin/foo2xqx
+-rwxr-xr-x 1 root root       17572  1월 31  2020  /bin/foo2xqx-wrapper
+-rwxr-xr-x 1 root root       45288  1월 31  2020  /bin/foo2zjs
+lrwxrwxrwx 1 root root           5  2월 22 14:23  /bin/foo2zjs-icc2ps -> psicc
+-rwxr-xr-x 1 root root        2997  1월 31  2020  /bin/foo2zjs-pstops
+-rwxr-xr-x 1 root root       25952  1월 31  2020  /bin/foo2zjs-wrapper
+lrwxrwxrwx 1 root root          31  2월 22 14:23  /bin/foomatic-rip -> ../lib/cups/filter/foomatic-rip
+-rwxr-xr-x 1 root root       14640  4월 16  2020  /bin/fprintd-delete
+-rwxr-xr-x 1 root root       23408  4월 16  2020  /bin/fprintd-enroll
+-rwxr-xr-x 1 root root       14640  4월 16  2020  /bin/fprintd-list
+-rwxr-xr-x 1 root root       14720  4월 16  2020  /bin/fprintd-verify
+-rwxr-xr-x 1 root root       26864  2월 27  2020  /bin/free
+lrwxrwxrwx 1 root root          21  4월  5 11:02  /bin/frm -> /etc/alternatives/frm
+-rwxr-xr-x 1 root root       27960  3월 20  2020  /bin/frm.mailutils
+lrwxrwxrwx 1 root root          22  2월 22 14:23  /bin/from -> /etc/alternatives/from
+-rwxr-xr-x 1 root root       27496  3월 20  2020  /bin/from.mailutils
+lrwxrwxrwx 1 root root          21  2월 22 14:23  /bin/ftp -> /etc/alternatives/ftp
+-rwxr-xr-x 1 root root       26776  8월 16  2019  /bin/funzip
+-rwxr-xr-x 1 root root       40184 11월 12  2019  /bin/fuser
+-rwsr-xr-x 1 root root       39144  3월  7  2020  /bin/fusermount
+lrwxrwxrwx 1 root root          26  2월 22 14:23  /bin/futurize -> /etc/alternatives/futurize
+-rwxr-xr-x 1 root root       55600  6월 19  2020  /bin/fwupdagent
+-rwxr-xr-x 1 root root       84488  6월 19  2020  /bin/fwupdate
+-rwxr-xr-x 1 root root      125232  6월 19  2020  /bin/fwupdmgr
+-rwxr-xr-x 1 root root      297400  6월 19  2020  /bin/fwupdtool
+-rwxr-xr-x 1 root root       22912  6월 19  2020  /bin/fwupdtpmevlog
+lrwxrwxrwx 1 root root           5  3월 20  2020  /bin/g++ -> g++-9
+lrwxrwxrwx 1 root root          22  8월  8  2020  /bin/g++-9 -> x86_64-linux-gnu-g++-9
+-rwxr-xr-x 1 root root      166392  5월 18  2020  /bin/gamemoded
+-rwxr-xr-x 1 root root         366  5월 18  2020  /bin/gamemoderun
+-rwxr-xr-x 1 root root       14488  9월 17  2020  /bin/gamma4scanimage
+-rwxr-xr-x 1 root root       22920  3월 13 01:38  /bin/gapplication
+-rwxr-xr-x 1 root root      285576  4월  3  2020  /bin/gatttool
+-rwxr-xr-x 1 root root      252304  3월  9  2020  /bin/gcalccmd
+lrwxrwxrwx 1 root root           5  3월 20  2020  /bin/gcc -> gcc-9
+lrwxrwxrwx 1 root root          22  8월  8  2020  /bin/gcc-9 -> x86_64-linux-gnu-gcc-9
+lrwxrwxrwx 1 root root           8  3월 20  2020  /bin/gcc-ar -> gcc-ar-9
+lrwxrwxrwx 1 root root          25  8월  8  2020  /bin/gcc-ar-9 -> x86_64-linux-gnu-gcc-ar-9
+lrwxrwxrwx 1 root root           8  3월 20  2020  /bin/gcc-nm -> gcc-nm-9
+lrwxrwxrwx 1 root root          25  8월  8  2020  /bin/gcc-nm-9 -> x86_64-linux-gnu-gcc-nm-9
+lrwxrwxrwx 1 root root          12  3월 20  2020  /bin/gcc-ranlib -> gcc-ranlib-9
+lrwxrwxrwx 1 root root          29  8월  8  2020  /bin/gcc-ranlib-9 -> x86_64-linux-gnu-gcc-ranlib-9
+-rwxr-xr-x 1 root root        3477  8월  4  2020  /bin/gcore
+lrwxrwxrwx 1 root root           6  3월 20  2020  /bin/gcov -> gcov-9
+lrwxrwxrwx 1 root root          23  8월  8  2020  /bin/gcov-9 -> x86_64-linux-gnu-gcov-9
+lrwxrwxrwx 1 root root          11  3월 20  2020  /bin/gcov-dump -> gcov-dump-9
+lrwxrwxrwx 1 root root          28  8월  8  2020  /bin/gcov-dump-9 -> x86_64-linux-gnu-gcov-dump-9
+lrwxrwxrwx 1 root root          11  3월 20  2020  /bin/gcov-tool -> gcov-tool-9
+lrwxrwxrwx 1 root root          28  8월  8  2020  /bin/gcov-tool-9 -> x86_64-linux-gnu-gcov-tool-9
+-rwxr-xr-x 1 root root       18808  3월 20  2020  /bin/gcr-viewer
+-rwxr-xr-x 1 root root     8440200  8월  4  2020  /bin/gdb
+-rwxr-xr-x 1 root root        4045  8월  4  2020  /bin/gdb-add-index
+-rwxr-xr-x 1 root root      521776  8월  4  2020  /bin/gdbserver
+-rwxr-xr-x 1 root root         126  8월  4  2020  /bin/gdbtui
+-rwxr-xr-x 1 root root       51592  3월 13 01:38  /bin/gdbus
+-rwxr-xr-x 1 root root        2039  3월 13 01:38  /bin/gdbus-codegen
+-rwxr-xr-x 1 root root        9228  2월 27  2020  /bin/gdialog
+-rwxr-xr-x 1 root root       14672  2월 18 23:41  /bin/gdk-pixbuf-csource
+-rwxr-xr-x 1 root root       14656  2월 18 23:41  /bin/gdk-pixbuf-pixdata
+-rwxr-xr-x 1 root root       18832  2월 18 23:41  /bin/gdk-pixbuf-thumbnailer
+-rwxr-xr-x 1 root root       18848 11월 10 21:27  /bin/gdm-screenshot
+-rwxr-xr-x 1 root root       31520 11월 10 21:27  /bin/gdmflexiserver
+-rwxr-xr-x 1 root root       14640  4월 28  2020  /bin/gedit
+-rwxr-xr-x 1 root root       27000 12월 16 20:04  /bin/gencat
+-rwxr-xr-x 1 root root      657304  2월 18  2020  /bin/genisoimage
+lrwxrwxrwx 1 root root           3  2월 22 14:23  /bin/geqn -> eqn
+-rwxr-xr-x 1 root root       35112 12월 16 20:04  /bin/getconf
+-rwxr-xr-x 1 root root        6210  2월 18  2020  /bin/geteltorito
+-rwxr-xr-x 1 root root       39576 12월 16 20:04  /bin/getent
+-rwxr-xr-x 1 root root       31512  3월  1  2020  /bin/getfacl
+-rwxr-xr-x 1 root root       14408  5월 10  2019  /bin/getkeycodes
+-rwxr-xr-x 1 root root       22760  7월 21  2020  /bin/getopt
+-rwxr-xr-x 1 root root       43240  3월 23  2020  /bin/gettext
+-rwxr-xr-x 1 root root        4629  3월 23  2020  /bin/gettext.sh
+lrwxrwxrwx 1 root root           2  2월 22 14:23  /bin/ghostscript -> gs
+lrwxrwxrwx 1 root root          12  2월 22 14:23  /bin/ginstall-info -> install-info
+-rwxr-xr-x 1 root root       92568  3월 13 01:38  /bin/gio
+lrwxrwxrwx 1 root root          49  3월 13 01:38  /bin/gio-querymodules -> ../lib/x86_64-linux-gnu/glib-2.0/gio-querymodules
+-rwxr-xr-x 1 root root       18752  1월 31  2020  /bin/gipddecode
+-rwxr-xr-x 1 root root     3093072  3월  4 22:01  /bin/git
+lrwxrwxrwx 1 root root           3  3월  4 22:01  /bin/git-receive-pack -> git
+-rwxr-xr-x 1 root root     1773344  3월  4 22:01  /bin/git-shell
+lrwxrwxrwx 1 root root           3  3월  4 22:01  /bin/git-upload-archive -> git
+lrwxrwxrwx 1 root root           3  3월  4 22:01  /bin/git-upload-pack -> git
+lrwxrwxrwx 1 root root          11  2월 22 14:23  /bin/gjs -> gjs-console
+-rwxr-xr-x 1 root root       23128  6월  3  2020  /bin/gjs-console
+-rwxr-xr-x 1 root root       14488  2월 21  2019  /bin/gkbd-keyboard-display
+-rwxr-xr-x 1 root root       47496  3월 13 01:38  /bin/glib-compile-resources
+lrwxrwxrwx 1 root root          53  3월 13 01:38  /bin/glib-compile-schemas -> ../lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas
+-rwxr-xr-x 1 root root       40978  3월 13 01:38  /bin/glib-genmarshal
+-rwxr-xr-x 1 root root        5386  3월 13 01:38  /bin/glib-gettextize
+-rwxr-xr-x 1 root root       29210  3월 13 01:38  /bin/glib-mkenums
+-rwxr-xr-x 1 root root      793440  3월  9  2020  /bin/gnome-calculator
+-rwxr-xr-x 1 root root      593304  6월 22  2020  /bin/gnome-calendar
+lrwxrwxrwx 1 root root          50  2월 22 14:23  /bin/gnome-characters -> ../share/org.gnome.Characters/org.gnome.Characters
+-rwxr-xr-x 1 root root     5410280 11월 26 21:47  /bin/gnome-control-center
+-rwxr-xr-x 1 root root       55688  3월 25  2020  /bin/gnome-disk-image-mounter
+-rwxr-xr-x 1 root root      761312  3월 25  2020  /bin/gnome-disks
+-rwxr-xr-x 1 root root       51664  8월 18  2020  /bin/gnome-extensions
+-rwxr-xr-x 1 root root       96840  2월 25  2020  /bin/gnome-font-viewer
+lrwxrwxrwx 1 root root           4  2월 22 14:23  /bin/gnome-help -> yelp
+lrwxrwxrwx 1 root root          15  2월 22 14:23  /bin/gnome-keyring -> gnome-keyring-3
+-rwxr-xr-x 1 root root       22904  3월 11  2020  /bin/gnome-keyring-3
+-rwxr-xr-x 1 root root     1164352  3월 11  2020  /bin/gnome-keyring-daemon
+-rwxr-xr-x 1 root root        1444  9월 28  2020  /bin/gnome-language-selector
+-rwxr-xr-x 1 root root      191360  5월 21  2020  /bin/gnome-logs
+-rwxr-xr-x 1 root root       71968  9월 26  2019  /bin/gnome-power-statistics
+-rwxr-xr-x 1 root root       97016  3월 13  2020  /bin/gnome-screenshot
+-rwxr-xr-x 1 root root         806  3월 26  2020  /bin/gnome-session
+-rwxr-xr-x 1 root root          54  3월  9  2020  /bin/gnome-session-custom-session
+-rwxr-xr-x 1 root root       14656  3월 26  2020  /bin/gnome-session-inhibit
+-rwxr-xr-x 1 root root       80216  3월 26  2020  /bin/gnome-session-properties
+-rwxr-xr-x 1 root root       14960  3월 26  2020  /bin/gnome-session-quit
+-rwxr-xr-x 1 root root          91  4월  8  2020  /bin/gnome-session-remmina
+-rwxr-xr-x 1 root root       23168  8월 18  2020  /bin/gnome-shell
+-rwxr-xr-x 1 root root        1706  8월 18  2020  /bin/gnome-shell-extension-tool
+-rwxr-xr-x 1 root root       10456  8월 18  2020  /bin/gnome-shell-perf-tool
+-rwxr-xr-x 1 root root      342376 12월  7 23:48  /bin/gnome-system-monitor
+-rwxr-xr-x 1 root root        3400  6월 11  2020  /bin/gnome-terminal
+-rwxr-xr-x 1 root root      113816  6월 11  2020  /bin/gnome-terminal.real
+-rwxr-xr-x 1 root root        2419  6월 11  2020  /bin/gnome-terminal.wrapper
+lrwxrwxrwx 1 root root          35  2월 22 14:23  /bin/gnome-text-editor -> /etc/alternatives/gnome-text-editor
+-rwxr-xr-x 1 root root       26784  2월 25  2020  /bin/gnome-thumbnail-font
+-rwxr-xr-x 1 root root      408408  9월 30  2019  /bin/gnome-todo
+lrwxrwxrwx 1 root root          35  2월 22 14:23  /bin/gnome-www-browser -> /etc/alternatives/gnome-www-browser
+-rwxr-xr-x 1 root root       14664  3월 13 01:38  /bin/gobject-query
+lrwxrwxrwx 1 root root          21  1월 22 00:23  /bin/gold -> x86_64-linux-gnu-gold
+-rwsr-xr-x 1 root root       88464  5월 28  2020  /bin/gpasswd
+-rwxr-xr-x 1 root root     1066992  3월 11  2020  /bin/gpg
+-rwxr-xr-x 1 root root      418856  3월 11  2020  /bin/gpg-agent
+-rwxr-xr-x 1 root root      167072  3월 11  2020  /bin/gpg-connect-agent
+-rwxr-xr-x 1 root root      208072  3월 11  2020  /bin/gpg-wks-server
+-rwxr-xr-x 1 root root        3516  3월 11  2020  /bin/gpg-zip
+-rwxr-xr-x 1 root root      895272  3월 11  2020  /bin/gpgcompose
+-rwxr-xr-x 1 root root      178848  3월 11  2020  /bin/gpgconf
+-rwxr-xr-x 1 root root       35200  3월 11  2020  /bin/gpgparsemail
+-rwxr-xr-x 1 root root      519416  3월 11  2020  /bin/gpgsm
+-rwxr-xr-x 1 root root       88840  3월 11  2020  /bin/gpgsplit
+-rwxr-xr-x 1 root root      155264  3월 11  2020  /bin/gpgtar
+-rwxr-xr-x 1 root root      457880  3월 11  2020  /bin/gpgv
+lrwxrwxrwx 1 root root           3  2월 22 14:23  /bin/gpic -> pic
+lrwxrwxrwx 1 root root          22  1월 22 00:23  /bin/gprof -> x86_64-linux-gnu-gprof
+-rwxr-xr-x 1 root root       76616  2월  4 03:23  /bin/gpu-manager
+-rwxr-xr-x 1 root root      199136  1월 29  2020  /bin/grep
+-rwxr-xr-x 1 root root       22840  3월 13 01:38  /bin/gresource
+-rwxr-xr-x 1 root root      124448  3월 21  2020  /bin/groff
+-rwxr-xr-x 1 root root        2776  3월 21  2020  /bin/grog
+-rwxr-xr-x 1 root root      186304  3월 21  2020  /bin/grops
+-rwxr-xr-x 1 root root      132672  3월 21  2020  /bin/grotty
+-rwxr-xr-x 1 root root       39256  9월  5  2019  /bin/groups
+-rwxr-xr-x 1 root root      253968  1월 13 23:12  /bin/grub-editenv
+-rwxr-xr-x 1 root root      799104  1월 13 23:12  /bin/grub-file
+-rwxr-xr-x 1 root root      923488  1월 13 23:12  /bin/grub-fstest
+-rwxr-xr-x 1 root root      249712  1월 13 23:12  /bin/grub-glue-efi
+-rwxr-xr-x 1 root root        1681  1월 13 23:12  /bin/grub-kbdcomp
+-rwxr-xr-x 1 root root      233600  1월 13 23:12  /bin/grub-menulst2cfg
+-rwxr-xr-x 1 root root      274864  1월 13 23:12  /bin/grub-mkfont
+-rwxr-xr-x 1 root root      357328  1월 13 23:12  /bin/grub-mkimage
+-rwxr-xr-x 1 root root      258224  1월 13 23:12  /bin/grub-mklayout
+-rwxr-xr-x 1 root root      411200  1월 13 23:12  /bin/grub-mknetdir
+-rwxr-xr-x 1 root root      254160  1월 13 23:12  /bin/grub-mkpasswd-pbkdf2
+-rwxr-xr-x 1 root root      245328  1월 13 23:12  /bin/grub-mkrelpath
+-rwxr-xr-x 1 root root      977200  1월 13 23:12  /bin/grub-mkrescue
+-rwxr-xr-x 1 root root      489328  1월 13 23:12  /bin/grub-mkstandalone
+-rwxr-xr-x 1 root root      746288  1월 13 23:12  /bin/grub-mount
+lrwxrwxrwx 1 root root          34  2월 22 14:23  /bin/grub-ntldr-img -> ../lib/grub/i386-pc/grub-ntldr-img
+-rwxr-xr-x 1 root root      819968  1월 13 23:12  /bin/grub-render-label
+-rwxr-xr-x 1 root root      278224  1월 13 23:12  /bin/grub-script-check
+-rwxr-xr-x 1 root root      759056  1월 13 23:12  /bin/grub-syslinux2cfg
+-rwxr-xr-x 1 root root       14488  8월 22  2020  /bin/gs
+-rwxr-xr-x 1 root root         350  8월 22  2020  /bin/gsbj
+-rwxr-xr-x 1 root root         352  8월 22  2020  /bin/gsdj
+-rwxr-xr-x 1 root root         352  8월 22  2020  /bin/gsdj500
+-rwxr-xr-x 1 root root       31112  3월 13 01:38  /bin/gsettings
+-rwxr-xr-x 1 root root         353  8월 22  2020  /bin/gslj
+-rwxr-xr-x 1 root root         350  8월 22  2020  /bin/gslp
+-rwxr-xr-x 1 root root         277  8월 22  2020  /bin/gsnd
+-rwxr-xr-x 1 root root       22760  3월 24  2020  /bin/gst-device-monitor-1.0
+-rwxr-xr-x 1 root root       30872  3월 24  2020  /bin/gst-discoverer-1.0
+-rwxr-xr-x 1 root root       63728 12월  9  2019  /bin/gst-inspect-1.0
+-rwxr-xr-x 1 root root       39064 12월  9  2019  /bin/gst-launch-1.0
+-rwxr-xr-x 1 root root       51432  3월 24  2020  /bin/gst-play-1.0
+-rwxr-xr-x 1 root root       18584 12월  9  2019  /bin/gst-typefind-1.0
+lrwxrwxrwx 1 root root          41  2월 22 14:23  /bin/gstreamer-codec-install -> /etc/alternatives/gstreamer-codec-install
+lrwxrwxrwx 1 root root           3  2월 22 14:23  /bin/gtbl -> tbl
+-rwxr-xr-x 1 root root       31056  3월 13 01:38  /bin/gtester
+-rwxr-xr-x 1 root root       19090  3월 13 01:38  /bin/gtester-report
+-rwxr-xr-x 1 root root       18752  1월 17 18:13  /bin/gtf
+-rwxr-xr-x 1 root root       35568  5월  8  2020  /bin/gtk-builder-tool
+-rwxr-xr-x 1 root root       18856  5월  8  2020  /bin/gtk-encode-symbolic-svg
+-rwxr-xr-x 1 root root       18904  5월  8  2020  /bin/gtk-launch
+-rwxr-xr-x 1 root root       14648  5월  8  2020  /bin/gtk-query-settings
+-rwxr-xr-x 1 root root       39552  5월  8  2020  /bin/gtk-update-icon-cache
+-rwxr-xr-x 1 root root        2346 12월 14  2019  /bin/gunzip
+-rwxr-xr-x 1 root root         273  4월 15  2020  /bin/gvfs-cat
+-rwxr-xr-x 1 root root         275  4월 15  2020  /bin/gvfs-copy
+-rwxr-xr-x 1 root root         275  4월 15  2020  /bin/gvfs-info
+-rwxr-xr-x 1 root root         884  4월 15  2020  /bin/gvfs-less
+-rwxr-xr-x 1 root root         275  4월 15  2020  /bin/gvfs-ls
+-rwxr-xr-x 1 root root         275  4월 15  2020  /bin/gvfs-mime
+-rwxr-xr-x 1 root root         277  4월 15  2020  /bin/gvfs-mkdir
+-rwxr-xr-x 1 root root         281  4월 15  2020  /bin/gvfs-monitor-dir
+-rwxr-xr-x 1 root root         281  4월 15  2020  /bin/gvfs-monitor-file
+-rwxr-xr-x 1 root root         277  4월 15  2020  /bin/gvfs-mount
+-rwxr-xr-x 1 root root         275  4월 15  2020  /bin/gvfs-move
+-rwxr-xr-x 1 root root         275  4월 15  2020  /bin/gvfs-open
+-rwxr-xr-x 1 root root         279  4월 15  2020  /bin/gvfs-rename
+-rwxr-xr-x 1 root root         279  4월 15  2020  /bin/gvfs-rm
+-rwxr-xr-x 1 root root         275  4월 15  2020  /bin/gvfs-save
+-rwxr-xr-x 1 root root         273  4월 15  2020  /bin/gvfs-set-attribute
+-rwxr-xr-x 1 root root         277  4월 15  2020  /bin/gvfs-trash
+-rwxr-xr-x 1 root root         275  4월 15  2020  /bin/gvfs-tree
+-rwxr-xr-x 1 root root        6376 12월 14  2019  /bin/gzexe
+-rwxr-xr-x 1 root root       97496 12월 14  2019  /bin/gzip
+-rwxr-xr-x 1 root root       29224 10월 19 19:56  /bin/h2ph
+-rwxr-xr-x 1 root root       60866 10월 19 19:56  /bin/h2xs
+-rwxr-xr-x 1 root root       26944  1월 31  2020  /bin/hbpldecode
+-rwxr-xr-x 1 root root      141400  4월  3  2020  /bin/hciattach
+-rwxr-xr-x 1 root root      200888  4월  3  2020  /bin/hciconfig
+-rwxr-xr-x 1 root root      151256  4월  3  2020  /bin/hcitool
+lrwxrwxrwx 1 root root           7  2월 22 14:23  /bin/hd -> hexdump
+-rwxr-xr-x 1 root root       47480  9월  5  2019  /bin/head
+-rwxr-xr-x 1 root root        2514  1월 30  2020  /bin/helpztags
+-rwxr-xr-x 1 root root       18664  4월  3  2020  /bin/hex2hcd
+-rwxr-xr-x 1 root root       35072  3월 30  2020  /bin/hexdump
+-rwxr-xr-x 1 root root       18752  1월 31  2020  /bin/hipercdecode
+-rwxr-xr-x 1 root root      105232  2월 17 05:08  /bin/host
+-rwxr-xr-x 1 root root       39256  9월  5  2019  /bin/hostid
+-rwxr-xr-x 1 root root       26856 11월  7  2019  /bin/hostname
+-rwxr-xr-x 1 root root       26848  1월  7 05:47  /bin/hostnamectl
+lrwxrwxrwx 1 root root          23  2월 22 14:23  /bin/hp-align -> ../share/hplip/align.py
+lrwxrwxrwx 1 root root          23  2월 22 14:23  /bin/hp-check -> ../share/hplip/check.py
+lrwxrwxrwx 1 root root          23  2월 22 14:23  /bin/hp-clean -> ../share/hplip/clean.py
+lrwxrwxrwx 1 root root          26  2월 22 14:23  /bin/hp-colorcal -> ../share/hplip/colorcal.py
+lrwxrwxrwx 1 root root          36  2월 22 14:23  /bin/hp-config_usb_printer -> ../share/hplip/config_usb_printer.py
+lrwxrwxrwx 1 root root          24  2월 22 14:23  /bin/hp-doctor -> ../share/hplip/doctor.py
+lrwxrwxrwx 1 root root          26  2월 22 14:23  /bin/hp-firmware -> ../share/hplip/firmware.py
+lrwxrwxrwx 1 root root          22  2월 22 14:23  /bin/hp-info -> ../share/hplip/info.py
+lrwxrwxrwx 1 root root          24  2월 22 14:23  /bin/hp-levels -> ../share/hplip/levels.py
+lrwxrwxrwx 1 root root          28  2월 22 14:23  /bin/hp-logcapture -> ../share/hplip/logcapture.py
+lrwxrwxrwx 1 root root          25  2월 22 14:23  /bin/hp-makeuri -> ../share/hplip/makeuri.py
+lrwxrwxrwx 1 root root          27  2월 22 14:23  /bin/hp-pkservice -> ../share/hplip/pkservice.py
+lrwxrwxrwx 1 root root          24  2월 22 14:23  /bin/hp-plugin -> ../share/hplip/plugin.py
+-rwxr-xr-x 1 root root         719  4월  1  2020  /bin/hp-plugin-ubuntu
+lrwxrwxrwx 1 root root          23  2월 22 14:23  /bin/hp-probe -> ../share/hplip/probe.py
+lrwxrwxrwx 1 root root          23  2월 22 14:23  /bin/hp-query -> ../share/hplip/query.py
+lrwxrwxrwx 1 root root          22  2월 22 14:23  /bin/hp-scan -> ../share/hplip/scan.py
+lrwxrwxrwx 1 root root          23  2월 22 14:23  /bin/hp-setup -> ../share/hplip/setup.py
+lrwxrwxrwx 1 root root          26  2월 22 14:23  /bin/hp-testpage -> ../share/hplip/testpage.py
+lrwxrwxrwx 1 root root          26  2월 22 14:23  /bin/hp-timedate -> ../share/hplip/timedate.py
+-rwxr-xr-x 1 root root       10830  1월 30 01:43  /bin/hwe-support-status
+lrwxrwxrwx 1 root root           7  2월 22 14:23  /bin/i386 -> setarch
+lrwxrwxrwx 1 root root          34  2월 22 14:25  /bin/i686-linux-gnu-pkg-config -> /usr/share/pkg-config-crosswrapper
+-rwxr-xr-x 1 root root       43384  7월  1  2020  /bin/ibus
+-rwxr-xr-x 1 root root      199088  7월  1  2020  /bin/ibus-daemon
+-rwxr-xr-x 1 root root        1180  7월  1  2020  /bin/ibus-setup
+lrwxrwxrwx 1 root root          29  2월 22 14:23  /bin/ibus-setup-hangul -> ../lib/ibus/ibus-setup-hangul
+-rwxr-xr-x 1 root root        1141  2월 17  2020  /bin/ibus-table-createdb
+-rwxr-xr-x 1 root root       39032  3월 19  2018  /bin/iceauth
+-rwxr-xr-x 1 root root       51648  2월 29  2020  /bin/ico
+-rwxr-xr-x 1 root root       68000 12월 16 20:04  /bin/iconv
+-rwxr-xr-x 1 root root       47480  9월  5  2019  /bin/id
+-rwxr-xr-x 1 root root       27008 10월 17 00:50  /bin/iecset
+-rwxr-xr-x 1 root root        4130  1월  3  2020  /bin/ifnames
+-rwxr-xr-x 1 root root       31112  2월 11  2018  /bin/ijs_pxljr
+-rwxr-xr-x 1 root root       11009  3월 31  2019  /bin/im-config
+-rwxr-xr-x 1 root root        1920  3월 31  2019  /bin/im-launch
+-rwxr-xr-x 1 root root      317176 10월 11  2019  /bin/info
+lrwxrwxrwx 1 root root          29  2월 22 14:23  /bin/infobrowser -> /etc/alternatives/infobrowser
+-rwxr-xr-x 1 root root       63880  2월 26  2020  /bin/infocmp
+lrwxrwxrwx 1 root root           3  2월 22 14:23  /bin/infotocap -> tic
+-rwxr-xr-x 1 root root       34488 10월 12  2019  /bin/inputattach
+-rwxr-xr-x 1 root root      158112  9월  5  2019  /bin/install
+-rwxr-xr-x 1 root root      118008 10월 11  2019  /bin/install-info
+-rwxr-xr-x 1 root root          95 11월  3 16:31  /bin/install-printerdriver
+-rwxr-xr-x 1 root root        4370 10월 19 19:56  /bin/instmodsh
+-rwxr-xr-x 1 root root       72000  4월 15  2020  /bin/intel-virtual-output
+-rwxr-xr-x 1 root root       30952  7월 21  2020  /bin/ionice
+-rwxr-xr-x 1 root root      611960  2월 14  2020  /bin/ip
+-rwxr-xr-x 1 root root       35120  7월 21  2020  /bin/ipcmk
+-rwxr-xr-x 1 root root       35048  7월 21  2020  /bin/ipcrm
+-rwxr-xr-x 1 root root       67816  7월 21  2020  /bin/ipcs
+-rwxr-xr-x 1 root root       22680  9월 26  2019  /bin/ipod-read-sysinfo-extended
+-rwxr-xr-x 1 root root       14488  9월 26  2019  /bin/ipod-time-sync
+-rwxr-xr-x 1 root root       43416  4월 24  2020  /bin/ippfind
+-rwxr-xr-x 1 root root       84280  4월 24  2020  /bin/ipptool
+lrwxrwxrwx 1 root root          28  2월 22 14:23  /bin/iptables-xml -> ../sbin/xtables-legacy-multi
+-rwxr-xr-x 1 root root       14536 12월  7  2019  /bin/ischroot
+-rwxr-xr-x 1 root root       18608  3월 11  2020  /bin/isdv4-serial-debugger
+-rwxr-xr-x 1 root root       30896  3월 11  2020  /bin/isdv4-serial-inputattach
+-rwxr-xr-x 1 root root      187672  2월 18  2020  /bin/isodump
+-rwxr-xr-x 1 root root      350744  2월 18  2020  /bin/isoinfo
+-rwxr-xr-x 1 root root      187672  2월 18  2020  /bin/isovfy
+-rwxr-xr-x 1 root root        7222 11월 16  2018  /bin/ispell-wrapper
+-rwxr-xr-x 1 root root       55672  9월  5  2019  /bin/join
+-rwxr-xr-x 1 root root       80120  1월  7 05:47  /bin/journalctl
+-rwxr-xr-x 1 root root       34992  9월 10  2019  /bin/jpgicc
+-rwxr-xr-x 1 root root        4667 10월 19 19:56  /bin/json_pp
+-rwxr-xr-x 1 root root       14408  5월 10  2019  /bin/kbd_mode
+-rwxr-xr-x 1 root root       14408  5월 10  2019  /bin/kbdinfo
+-rwxr-xr-x 1 root root      179168  3월 11  2020  /bin/kbxutil
+-rwxr-xr-x 1 root root        5191  4월  2  2020  /bin/kernel-install
+-rwxr-xr-x 1 root root       10232 12월  2  2017  /bin/kerneloops-submit
+-rwxr-xr-x 1 root root         385  3월 14  2020  /bin/keyring
+-rwxr-xr-x 1 root root       30952  2월 27  2020  /bin/kill
+-rwxr-xr-x 1 root root       32024 11월 12  2019  /bin/killall
+-rwxr-xr-x 1 root root      174424  3월 12  2020  /bin/kmod
+-rwxr-xr-x 1 root root       14472  5월  4  2019  /bin/kmodsign
+[4msolgae[24m:[1m~[0m> ls -l /bo[Kin/ p???
+lrwxrwxrwx 1 root root       6  3월 13  2020 /bin/pdb2 -> pdb2.7
+lrwxrwxrwx 1 root root       6  2월 22 14:23 /bin/pdb3 -> pdb3.8
+-rwxr-xr-x 1 root root 3478464 10월 19 19:56 /bin/perl
+lrwxrwxrwx 1 root root      22  2월 22 14:23 /bin/pftp -> /etc/alternatives/pftp
+lrwxrwxrwx 1 root root      22  2월 22 14:23 /bin/pico -> /etc/alternatives/pico
+-rwxr-xr-x 1 root root   72776  1월 31  2020 /bin/ping
+-rwxr-xr-x 1 root root   22904 12월 16 20:04 /bin/pldd
+-rwxr-xr-x 1 root root     146  2월  9  2019 /bin/plog
+-rwxr-xr-x 1 root root   35064  2월 27  2020 /bin/pmap
+-rwxr-xr-x 1 root root    2837  2월  9  2019 /bin/poff
+-rwxr-xr-x 1 root root  117280  4월 24  2020 /bin/ppdc
+-rwxr-xr-x 1 root root  117280  4월 24  2020 /bin/ppdi
+-rwxr-xr-x 1 root root     404  8월 22  2020 /bin/pphs
+-rwxr-xr-x 1 root root    3549 10월 19 19:56 /bin/ptar
+-rwxr-xr-x 1 root root   14568  2월 27  2020 /bin/pwdx
+[4msolgae[24m:[1m~[0m> [K[4msolgae[24m:[1m~[0m> e[Ksleep 5
+[4msolgae[24m:[1m~[0m> cat as[K
+asflnasnf
+[4msolgae[24m:[1m~[0m> c[K[4msolgae[24m:[1m~[0m> cat a
+asflnasnf
+[4msolgae[24m:[1m~[0m> ecjp[K[Kpj[K[Kho $?
+0
+[4msolgae[24m:[1m~[0m> cat a ch[K[Kecho $?
+asflnasnf
+cat: echo: No such file or directory
+cat: 0: No such file or directory
+[4msolgae[24m:[1m~[0m> cat as echo $?
+cat: as: No such file or directory
+cat: echo: No such file or directory
+cat: 1: No such file or directory
+[4msolgae[24m:[1m~[0m> tu[Krue && c[Kecho success
+success
+[4msolgae[24m:[1m~[0m> cat a tu[Kru[K[K[Kfl[Kalse[K[K[K[K[Ktu[Kru[Kue %% echo sucess
+asflnasnf
+cat: true: No such file or directory
+cat: %%: No such file or directory
+cat: echo: No such file or directory
+cat: sucess: No such file or directory
+[4msolgae[24m:[1m~[0m> cat a || fales[Ke[K[Kse $$[K[K&& echo fali[K[Kil[K[K[K[Kerror
+asflnasnf
+[4msolgae[24m:[1m~[0m> cat b || false %%[K[K&& echo error
+cat: b: No such file or directory
+[4msolgae[24m:[1m~[0m> cat b || ch[K[Kecho error
+cat: b: No such file or directory
+error
+[4msolgae[24m:[1m~[0m> ^Dexit
+
+Script done on 2021-04-13 23:59:30+09:00 [COMMAND_EXIT_CODE="0"]

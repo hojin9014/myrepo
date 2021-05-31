@@ -1,0 +1,61 @@
+Script started on 2021-03-31 03:49:03+09:00 [TERM="xterm" TTY="/dev/pts/3" COLUMNS="83" LINES="40"]
+]0;u20057@solgae: ~u20057@solgae:~$ ls/[K /usr
+[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib32[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlibx32[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+]0;u20057@solgae: ~u20057@solgae:~$ ls xyz
+ls: cannot access 'xyz': No such file or directory
+]0;u20057@solgae: ~u20057@solgae:~$ ls- [K[K -a
+[0m[01;34m.[0m   .bash_history  .bashrc  [01;34m.config[0m  .profile  hw2     typescript
+[01;34m..[0m  .bash_logout   [01;34m.cache[0m   [01;34m.local[0m   hojin     lyrics  u20057-2
+]0;u20057@solgae: ~u20057@solgae:~$ ls -la
+total 52
+drwxr-xr-x  5 u20057 u_student 4096  3월 31 03:49 [0m[01;34m.[0m
+drwxr-xr-x 86 root   root      4096  3월 24 10:19 [01;34m..[0m
+-rw-------  1 u20057 u_student 2449  3월 31 03:43 .bash_history
+-rw-r--r--  1 u20057 u_student  220  2월 25  2020 .bash_logout
+-rw-r--r--  1 u20057 u_student 3771  2월 25  2020 .bashrc
+drwx------  4 u20057 u_student 4096  3월 17 08:59 [01;34m.cache[0m
+drwxr-xr-x  4 u20057 u_student 4096  3월 17 08:59 [01;34m.config[0m
+drwxr-xr-x  3 u20057 u_student 4096  3월 17 08:58 [01;34m.local[0m
+-rw-r--r--  1 u20057 u_student  807  2월 25  2020 .profile
+-rw-r--r--  1 u20057 u_student   18  3월 31 03:41 hojin
+-rw-------  1 u20057 u_student  420  3월 30 22:56 hw2
+-rw-r--r--  1 u20057 u_student    1  3월 27 16:15 lyrics
+-rw-r--r--  1 u20057 u_student    0  3월 31 03:49 typescript
+-rw-------  1 u20057 u_student 2149  3월 31 03:43 u20057-2
+]0;u20057@solgae: ~u20057@solgae:~$ cat -n hojin
+     1	hojin jeong
+     2	linux
+]0;u20057@solgae: ~u20057@solgae:~$ cat -a o[Ko[Khojin
+cat: invalid option -- 'a'
+Try 'cat --help' for more information.
+]0;u20057@solgae: ~u20057@solgae:~$ aca[K[K[Kcat hojin
+hojin jeong
+linux
+]0;u20057@solgae: ~u20057@solgae:~$ cat -a -> hojin
+cat: invalid option -- 'a'
+Try 'cat --help' for more information.
+]0;u20057@solgae: ~u20057@solgae:~$ [K]0;u20057@solgae: ~u20057@solgae:~$ cat jeng[K[Kong
+cat: jeong: No such file or directory
+]0;u20057@solgae: ~u20057@solgae:~$ m[Kcat -> jenog
+cat   dnkfnsa
+andflkan
+lkndf
+fnlsda
+]0;u20057@solgae: ~u20057@solgae:~$ cp jenon[Kg o[Khojin
+]0;u20057@solgae: ~u20057@solgae:~$ cat hojin
+dnkfnsa
+andflkan
+lkndf
+fnlsda
+]0;u20057@solgae: ~u20057@solgae:~$ cp hojin[K[K[K[K[Kjeon[K[Knog
+cp: missing destination file operand after 'jenog'
+Try 'cp --help' for more information.
+]0;u20057@solgae: ~u20057@solgae:~$ c[Kcat[K[K[Kmv jenog c[Kjeong
+]0;u20057@solgae: ~u20057@solgae:~$ cat jeno[K[Kong
+dnkfnsa
+andflkan
+lkndf
+fnlsda
+]0;u20057@solgae: ~u20057@solgae:~$ exit
+
+Script done on 2021-03-31 03:52:36+09:00 [COMMAND_EXIT_CODE="0"]
